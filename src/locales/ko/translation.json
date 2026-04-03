@@ -1,0 +1,712 @@
+{
+  "common": {
+    "connectWallet": "지갑 연결",
+    "disconnect": "연결 해제",
+    "switchWallet": "지갑 변경",
+    "connected": "연결됨",
+    "installMetamask": "MetaMask 설치",
+    "walletNotConnected": "지갑 미연결",
+    "wrongNetwork": "잘못된 네트워크",
+    "processing": "처리 중...",
+    "onChain": "FULLY ON-CHAIN"
+  },
+  "nav": {
+    "mint": "민트",
+    "stake": "스테이킹",
+    "rewards": "보상",
+    "mythology": "신화"
+  },
+  "footer": {
+    "smartContracts": "스마트 컨트랙트",
+    "trustlessOnEthereum": "이더리움의 트러스트리스",
+    "nftContract": "NFT 컨트랙트",
+    "pogeToken": "$POGE 토큰",
+    "stakingContract": "스테이킹 컨트랙트",
+    "docs": "문서",
+    "faq": "FAQ",
+    "privacy": "개인정보",
+    "github": "GITHUB"
+  },
+  "stakeAction": {
+    "stake": "🚀 {{count}}개 NFT 스테이킹",
+    "stake_plural": "🚀 {{count}}개 NFT 스테이킹",
+    "unstake": "🔙 {{count}}개 NFT 출금",
+    "unstake_plural": "🔙 {{count}}개 NFT 출금",
+    "unstakeAllFirst": "⚠️ 먼저 전체 출금 ({{count}}개)",
+    "revokeApproval": "승인 취소"
+  },
+  "controlBar": {
+    "staked": "스테이킹 중",
+    "idle": "대기 중",
+    "selected": "선택됨",
+    "sync": "동기화",
+    "syncing": "동기화 중",
+    "approved": "승인됨",
+    "notApproved": "미승인",
+    "revoke": "취소",
+    "revoking": "취소 중...",
+    "approve": "승인",
+    "approving": "승인 중...",
+    "emergency": "긴급",
+    "stakeAll": "🚀 전체 {{count}}개 스테이킹",
+    "stakeAll_plural": "🚀 전체 {{count}}개 스테이킹",
+    "approveToStakeAll": "🔒 스테이킹 승인 필요",
+    "unstakeAll": "📦 전체 {{count}}개 출금",
+    "unstakeAll_plural": "📦 전체 {{count}}개 출금",
+    "selectBelow": "또는 아래에서 특정 NFT를 선택해 일괄 처리",
+    "emergencyTitle": "긴급 출금",
+    "emergencyWarning": "전체 {{count}}개의 NFT가 즉시 출금됩니다. 누적된 모든 배수가 사라집니다. 되돌릴 수 없습니다.",
+    "emergencyConfirm": "예, 전부 출금",
+    "cancel": "취소",
+    "unstaking": "출금 중..."
+  },
+  "actionBar": {
+    "selected": "{{count}}개 선택",
+    "readyToStake": "→ {{count}}개 스테이킹 가능",
+    "readyToUnstake": "→ {{count}}개 출금 가능",
+    "approveFirst": "🔒 먼저 승인",
+    "stake": "🚀 {{count}}개 스테이킹",
+    "unstake": "📦 {{count}}개 출금",
+    "clear": "지우기",
+    "approving": "승인 중...",
+    "staking": "스테이킹 중...",
+    "unstaking": "출금 중...",
+    "estEarnings": "예상 수익: ~{{amount}} POGE/일"
+  },
+  "nftCard": {
+    "tabNFT": "NFT",
+    "tabTraits": "특성",
+    "tabStaking": "스테이킹",
+    "noTraits": "특성 데이터 없음",
+    "multiplier": "배수",
+    "days": "일수",
+    "daily": "일일",
+    "stakedSince": "{{date}}부터 스테이킹 중",
+    "idle": "대기 중",
+    "notStaked": "미스테이킹",
+    "selectToStake": "스테이킹하려면 선택",
+    "bgDark": "어두움",
+    "bgLite": "밝음",
+    "bgGrid": "격자",
+    "perDay": "+{{amount}}/일"
+  },
+  "approvalBanner": {
+    "approvalNeeded": "스테이킹에 승인 필요",
+    "approveNow": "지금 승인",
+    "approving": "승인 중...",
+    "stakingApproved": "✅ 스테이킹 승인됨",
+    "earning": "스테이킹 중",
+    "idle": "대기 중",
+    "revokeApproval": "승인 취소",
+    "revoking": "취소 중...",
+    "viewRewards": "보상 보기"
+  },
+  "statusSummary": {
+    "readyToStake": "대기 중",
+    "currentlyEarning": "스테이킹 중",
+    "selectedForAction": "작업을 위해 선택됨",
+    "selectNFTs": "위에서 NFT 선택",
+    "readyToUnstake": "출금 가능",
+    "readyToStakeLabel": "스테이킹 가능",
+    "estPerDay": "예상 {{amount}} POGE/일",
+    "earningPerDay": "{{amount}} POGE/일 획득 중",
+    "nSelected": "{{count}}개 선택됨"
+  },
+  "selectionControls": {
+    "title": "선택 컨트롤:",
+    "nOfTotal": "{{total}}개 중 {{count}}개 선택",
+    "selectN": "{{count}}개 선택",
+    "clear": "지우기",
+    "idle": "대기 중",
+    "staked": "스테이킹 중",
+    "maxSelected": "ℹ️ 최대 {{count}}개 NFT 선택됨 (컨트랙트 한도)"
+  },
+  "rewards": {
+    "title": "내 $POGE 보상",
+    "walletNotConnected": "지갑 미연결",
+    "connectToView": "보상을 보려면 지갑을 연결하세요",
+    "connectWallet": "지갑 연결",
+    "claimRewards": "보상 수령",
+    "pendingRewards": "대기 중인 보상",
+    "perSecond": "+{{amount}} POGE/초",
+    "claiming": "수령 중...",
+    "claimNow": "💰 지금 수령",
+    "accumulating": "⏳ 보상 누적 중...",
+    "liveFor": "{{time}} 동안 활성",
+    "startEarning": "🚀 지금 바로 시작",
+    "claimedPoge": "수령된 POGE:",
+    "dailyReward": "일일 보상:",
+    "stakedNFTs": "스테이킹 중인 NFT:",
+    "stakedLabel": "{{staked}}개 스테이킹 중",
+    "inWallet": "{{count}}개 지갑 내",
+    "manageStaking": "⚡ 스테이킹 관리",
+    "achievements": "업적",
+    "progress": "진행률",
+    "unlocked": "✓ 해제됨",
+    "locked": "잠김",
+    "totalOwned": "총 보유:",
+    "peakStaked": "최고 스테이킹:",
+    "lifetimeClaimed": "누적 수령:",
+    "startJourney": "🎯 여정을 시작하세요",
+    "startJourneyDesc": "NFT를 스테이킹하여 업적을 해제하세요",
+    "achievementsToUnlock": "💪 {{count}}개의 업적을 해제하세요",
+    "keepGoing": "수익 중! 업적 해제를 위해 계속하세요",
+    "moreTogo": "🔥 {{count}}개 더",
+    "keepStaking": "더 많은 업적을 위해 스테이킹을 계속하세요",
+    "legendStatus": "🏆 레전드 상태",
+    "legendDesc": "모든 업적 해제!",
+    "earlyAdopter": "얼리 어답터",
+    "earlyAdopterDesc": "최초 100명 스테이커",
+    "diamondPaws": "다이아몬드 발",
+    "diamondPawsDesc": "180일 스테이킹",
+    "collector": "컬렉터",
+    "collectorDesc": "10개 이상 7일 스테이킹",
+    "pogeWhale": "POGE 고래",
+    "pogeWhaleDesc": "10,000+ POGE",
+    "dataLoading": "⛓ 체인에서 데이터 읽는 중..."
+  },
+  "mythology": {
+    "title": "신화",
+    "aiSongs": "수천 곡의 AI 노래를 생성했다.",
+    "firstTry": "한 곡이 첫 시도에 맞았다.",
+    "usedIt": "그걸 사용했다.",
+    "originTitle": "기원",
+    "origin1": "개 귀를 가진 펑크로 시작했다.",
+    "origin2": "AI가 노래를 쓰면서 캐릭터를 '그녀'라 불렀다.",
+    "origin3": "그에 맞게 아트를 변경했다.",
+    "origin4": "10,000개의 펑크. 온체인으로 영원히.",
+    "technicalTitle": "기술",
+    "tech1": "단일 불변 컨트랙트. 이더리움 체인.",
+    "tech2": "JPEG가 아닌 SVG. 해상도 독립적.",
+    "tech3": "IPFS가 아닌 온체인. 서버 없음.",
+    "tech4": "20억 가지 조합. 영원히.",
+    "nft20": "NFT 2.0",
+    "songTitle": "노래",
+    "clickPlay": "시작하려면 PLAY 클릭",
+    "play": "재생",
+    "pause": "일시정지",
+    "fiveVerses": "다섯 절",
+    "verseConvergence": "수렴",
+    "verseConvergenceDesc": "CryptoPunks가 Doge를 만났다. Dunk가 선택됐다.",
+    "verseAwakening": "각성",
+    "verseAwakeningDesc": "결정론에서 탈출. 재정적으로 견고.",
+    "verseFreedom": "자유",
+    "verseFreedomDesc": "당신은 무엇을 믿습니까?",
+    "verseRevelation": "계시",
+    "verseRevelationDesc": "회전목마 색깔의 폰지 계획.",
+    "verseCalling": "소명",
+    "verseCallingDesc": "이것을 위해 태어났다.",
+    "factsLine1": "20억 가지 가능한 형태. 10,000개 민트됨.",
+    "factsLine2": "무료 시뮬레이터. 소유권과 접근권 분리.",
+    "factsLine3": "$POGE 보상을 위해 스테이킹.",
+    "factsLine4": "SVG 온체인. 불변 컨트랙트.",
+    "factsQuote": "\"인생은 회전목마 색깔의 폰지 계획이다\"",
+    "forever": "DUNK POGE는 영원하다"
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "headline": "저희는 아무것도 수집하지 않습니다",
+    "subheadline": "이것이 전체 개인정보 처리방침입니다.",
+    "whyTitle": "왜?",
+    "why1": "전체 앱은 이더리움 스마트 컨트랙트와 직접 통신하는 정적 프론트엔드입니다.",
+    "why2": "데이터를 받을 백엔드가 말 그대로 없습니다.",
+    "why3": "저희는 데이터를 수집할 수 없습니다. 아키텍처가 이를 방지합니다.",
+    "dontKnowTitle": "저희가 모르는 것",
+    "dontKnow": [
+      "당신이 누구인지",
+      "어디에 있는지",
+      "어떤 브라우저를 사용하는지",
+      "이 사이트를 어떻게 찾았는지",
+      "여기서 무엇을 하는지",
+      "몇 번 방문했는지",
+      "민트/스테이킹을 했는지",
+      "당신에 관한 모든 것"
+    ],
+    "publicTitle": "⚠️ 공개되는 정보 (블록체인)",
+    "publicDesc": "이더리움과 상호작용할 때 일부 정보가 블록체인에 공개적으로 표시됩니다:",
+    "publicItems": [
+      "지갑 주소",
+      "거래 내역",
+      "NFT 소유권",
+      "POGE 잔액"
+    ],
+    "publicBut": "그러나 이 데이터는:",
+    "publicButItems": [
+      "저희가 수집하지 않음",
+      "저희 서버에 없음 (서버가 없음)",
+      "가명성이 있음",
+      "당신의 선택 (당신이 거래했음)"
+    ],
+    "verifyTitle": "확인 방법",
+    "networkTab": "네트워크 탭",
+    "networkDesc": "브라우저 DevTools (F12) → 네트워크",
+    "networkItem1": "이더리움으로의 RPC 호출",
+    "networkItem2": "분석 호출 없음",
+    "networkItem3": "추적 픽셀 없음",
+    "sourceCode": "소스 코드",
+    "sourceDesc": "모든 코드가 GitHub에서 오픈소스",
+    "viewGithub": "GITHUB에서 보기 →",
+    "runLocally": "로컬에서 실행",
+    "runDesc": "리포지토리를 클론하여 자신의 기기에서 실행",
+    "cookiesTitle": "쿠키 및 로컬 스토리지",
+    "cookiesUse": "localStorage 사용 목적:",
+    "cookiesItems": [
+      "지갑 연결 설정 (선택)",
+      "RPC 응답 캐시 (성능)"
+    ],
+    "cookiesNote": "이 데이터는 절대 브라우저를 벗어나지 않습니다.",
+    "cookiesNo": "없음:",
+    "cookiesNoItems": [
+      "추적 쿠키",
+      "세션 쿠키",
+      "서드파티 쿠키",
+      "분석 쿠키"
+    ],
+    "legalTitle": "법적 준수",
+    "gdpr": "GDPR (유럽):",
+    "gdprDesc": "데이터 없음 = 준수 부담 없음.",
+    "ccpa": "CCPA (캘리포니아):",
+    "ccpaDesc": "판매, 공유 또는 삭제할 데이터가 없습니다.",
+    "otherLaws": "기타 개인정보 보호법:",
+    "otherLawsDesc": "법률은 데이터 수집을 규제합니다. 저희는 아무것도 수집하지 않습니다.",
+    "contactTitle": "연락처",
+    "contactNote": "솔직히 말씀드리면, 논의할 것이 많지 않습니다. 저희는 아무것도 수집하지 않습니다.",
+    "philTitle": "철학적 노트",
+    "philHeadline": "개인정보는 주권이다",
+    "phil1": "자산을 저희에게 신뢰하지 말아야 한다면 (그래서 트러스트리스 스마트 컨트랙트), 데이터도 신뢰할 필요가 없습니다.",
+    "phil2": "이것이 진정한 탈중앙화의 모습입니다: 온체인에서 거래하지 않는 한 당신이 존재하는지조차 모릅니다.",
+    "phil3": "그때도 지갑 주소가 스마트 컨트랙트와 상호작용했다는 것만 알 뿐, 그것이 당신인지 모릅니다.",
+    "summaryTitle": "요약",
+    "summaryItems": [
+      "제로 데이터 수집",
+      "정적 프론트엔드 (백엔드 없음)",
+      "오픈소스 (직접 확인)",
+      "분석, 쿠키 또는 추적 없음",
+      "블록체인 데이터는 공개 (이더리움 고유)",
+      "이 모든 것을 확인할 수 있습니다"
+    ],
+    "summaryClose": "이것으로 끝입니다. 이것이 개인정보 처리방침입니다.",
+    "tagline": "매우 프라이빗 • 매우 주권적 • 대박"
+  },
+  "docs": {
+    "title": "문서",
+    "subtitle": "트러스트리스 NFT 생태계",
+    "desc": "스테이킹 보상이 있는 완전 온체인 생성 NFT 10,000개",
+    "viewSource": "소스 보기",
+    "philosophy": "철학",
+    "architecture": "아키텍처",
+    "security": "보안",
+    "philosophyTitle": "철학과 원칙",
+    "manifesto": "트러스트리스 선언문",
+    "manifestoTitle": "트러스트리스 선언문과의 일치",
+    "manifestoIntro": "Dunk Poge는 다음에 설명된 원칙을 구현합니다",
+    "noSecrets": "중요한 비밀 없음",
+    "noSecretsDesc": "NFT 생성은 공개 블록체인 데이터를 사용합니다. 배포 후 사용자 자산을 제어하는 개인 키가 없습니다.",
+    "principles": [
+      {
+        "title": "자기 주권",
+        "desc": "각 사용자가 자신의 행동을 승인합니다. 아무도 대신 민트, 스테이킹 또는 청구하지 않습니다."
+      },
+      {
+        "title": "검증 가능성",
+        "desc": "모든 NFT 메타데이터가 SVG로 온체인에 존재합니다. 누구나 공개 데이터에서 확인할 수 있습니다."
+      },
+      {
+        "title": "검열 저항성",
+        "desc": "어떤 관리자도 언스테이킹이나 보상 청구를 막을 수 없습니다."
+      },
+      {
+        "title": "이탈 테스트",
+        "desc": "팀이 사라져도 컨트랙트는 계속 작동합니다. NFT는 영원히 당신의 것입니다."
+      },
+      {
+        "title": "접근성",
+        "desc": "민트 가격 (0.005 ETH)과 온체인 저장으로 누구나 참여할 수 있습니다."
+      },
+      {
+        "title": "투명성",
+        "desc": "발행률, 감소 곡선, 배수는 공개 상수입니다."
+      }
+    ],
+    "archTitle": "시스템 아키텍처",
+    "contractAddresses": "컨트랙트 주소",
+    "view": "보기",
+    "contractGrid": [
+      {
+        "name": "DunkPoge NFT",
+        "type": "ERC721A",
+        "features": [
+          "10K 공급량",
+          "온체인 SVG",
+          "배치 민트",
+          "5% 로열티"
+        ]
+      },
+      {
+        "name": "Pogecoin (POGE)",
+        "type": "ERC20",
+        "features": [
+          "10억 고정 공급",
+          "관리자 없음",
+          "스테이킹 보상",
+          "표준 ERC20"
+        ]
+      },
+      {
+        "name": "스테이킹 컨트랙트",
+        "type": "Vault",
+        "features": [
+          "불변",
+          "감소 곡선",
+          "2x 배수",
+          "업적"
+        ]
+      }
+    ],
+    "nftSpecTitle": "NFT 사양",
+    "keyParams": "주요 파라미터",
+    "traitLayers": "특성 레이어",
+    "params": [
+      {
+        "label": "최대 공급량:",
+        "value": "10,000"
+      },
+      {
+        "label": "가격:",
+        "value": "0.005 ETH"
+      },
+      {
+        "label": "지갑당 최대:",
+        "value": "10"
+      },
+      {
+        "label": "로열티:",
+        "value": "5%"
+      },
+      {
+        "label": "조합:",
+        "value": "~20억"
+      }
+    ],
+    "traits": [
+      "10가지 피부색",
+      "7가지 눈 색깔",
+      "7가지 입술 색깔",
+      "18가지 헤어스타일 (80% 스타일됨)",
+      "15가지 머리카락 색",
+      "11가지 안경 스타일 (60% 착용)",
+      "10가지 모자 스타일 (60% 착용)",
+      "8가지 액세서리 레이어 1 (가중치)",
+      "4가지 액세서리 레이어 2 (85% 없음)",
+      "5가지 액세서리 레이어 3 (70% 없음)"
+    ],
+    "rarityTitle": "발현 희귀도 시스템",
+    "rarityDesc": "희귀도는 실제 민트 분포로 결정됩니다. 시스템을 조작하면 대상 특성이 더 일반적이 됩니다.",
+    "stakingTitle": "스테이킹 메커니즘",
+    "emissionRates": "발행률",
+    "loyaltyMults": "충성도 배수",
+    "supplyPlanning": "공급 계획",
+    "achievementsTitle": "업적",
+    "achievements": [
+      {
+        "name": "얼리 어답터",
+        "req": "최초 30일 내 스테이킹"
+      },
+      {
+        "name": "다이아몬드 발",
+        "req": "180일 이상 연속 스테이킹"
+      },
+      {
+        "name": "컬렉터",
+        "req": "최고점에서 10개 이상 7일 이상 스테이킹"
+      },
+      {
+        "name": "POGE 고래",
+        "req": "총 10,000+ POGE 획득"
+      }
+    ],
+    "securityTitle": "보안과 트러스트리스",
+    "guarantees": [
+      {
+        "title": "외부 의존성 없음",
+        "desc": "NFT 메타데이터 완전 온체인. IPFS, HTTP, 서버 의존성 없음."
+      },
+      {
+        "title": "사용자 제어",
+        "desc": "NFT는 언제든지 출금 가능. 풀 고갈은 부분 지불로 이어지며 되돌리지 않음."
+      },
+      {
+        "title": "검증 가능성",
+        "desc": "누구나 컨트랙트 코드에서 희귀도, 대기 중인 보상, 발행률을 확인 가능."
+      },
+      {
+        "title": "검열 저항성",
+        "desc": "어떤 관리자도 언스테이킹이나 보상 청구를 막을 수 없습니다."
+      },
+      {
+        "title": "불변성",
+        "desc": "스테이킹 컨트랙트는 관리자 기능이 제로. 일시정지나 업그레이드 불가."
+      },
+      {
+        "title": "긴급 복구",
+        "desc": "emergencyWithdraw()는 보상을 잃더라도 항상 NFT를 반환합니다."
+      }
+    ],
+    "auditedPatterns": "감사된 패턴",
+    "patterns": [
+      "모든 상태 변경 함수에 ReentrancyGuard",
+      "SafeERC20으로 조용한 전송 실패 방지",
+      "ERC721A 전투 테스트된 배치 민트",
+      "Checks-Effects-Interactions 패턴",
+      "ERC20/721 외 외부 호출 없음",
+      "가스 효율을 위한 스택 깊이 최적화"
+    ],
+    "techDeepDive": "기술 심층 분석",
+    "svgGenTitle": "온체인 SVG 생성",
+    "svgWhyLabel": "왜 SVG인가?",
+    "svgReasons": [
+      "해상도 독립적 (무한 스케일)",
+      "base64 이미지 데이터보다 작음",
+      "기본 브라우저 지원",
+      "동적 스타일링 가능"
+    ],
+    "emissionMathTitle": "발행 감소 수학",
+    "emissionFormula": "이차 감소 공식:",
+    "emissionExample": "예시 타임라인:",
+    "emissionTimeline": [
+      "1일차: NFT당 ~10 POGE/일",
+      "180일차: ~6.25 POGE/일 (1.5x 배수 → 9.375 실효)",
+      "365일차: ~3.75 POGE/일 (2x 배수 → 7.5 실효)",
+      "730일차: ~1 POGE/일 (2x 배수 → 2 실효)"
+    ],
+    "integrationTitle": "통합 가이드",
+    "readOps": "읽기 작업 (무료)",
+    "writeOps": "쓰기 작업 (가스)",
+    "resourcesTitle": "리소스",
+    "footerQuote": "\"인생은 회전목마 색깔의 폰지 계획이다\"",
+    "footerQuoteAttr": "— 노래, 4절",
+    "tagline": "풍부한 문서 • 완전 트러스트리스 • 대박"
+  },
+  "header": {
+    "minted": "{{count}} / 10,000 민트됨",
+    "left": "{{count}}개 남음",
+    "price": "{{price}} ETH",
+    "soldOutMinted": "10,000 / 10,000 민트됨",
+    "soldOut": "완판",
+    "buyOnOpensea": "OpenSea에서 구매"
+  },
+  "mint": {
+    "experienceArt": "아트 체험",
+    "mintYourDunk": "나의 DUNK 민트",
+    "walletLimitTitle": "🔒 지갑 한도 도달",
+    "walletLimitDesc": "이 지갑은 {{count}}개의 NFT를 보유합니다. 지갑당 최대 10개.",
+    "walletLimitHint": "더 많은 Dunk Poge를 민트하려면 다른 지갑을 사용하세요.",
+    "soldOutTitle": "🎉 완판",
+    "soldOutDesc": "10,000개의 Dunk Poge NFT가 모두 민트되었습니다. 2차 시장에서 찾아보세요:",
+    "saleNotStartedTitle": "⏳ 판매 미시작",
+    "saleNotStartedDesc": "민팅이 아직 시작되지 않았습니다. 나중에 다시 확인하거나 공지를 팔로우하세요.",
+    "salePausedTitle": "⏸️ 판매 일시정지",
+    "salePausedDesc": "민팅이 일시적으로 비활성화됩니다. {{totalSupply}}/10,000 민트됨.",
+    "mintInfo": "민트 정보",
+    "statusLabel": "상태:",
+    "statusLive": "✓ 진행 중",
+    "statusPaused": "✗ 일시정지",
+    "statusSoldOut": "🎉 완판",
+    "priceLabel": "가격:",
+    "mintedLabel": "민트됨:",
+    "youOwnLabel": "보유 수:",
+    "canMintMore_one": "{{count}}개 더 민트 가능",
+    "canMintMore_other": "{{count}}개 더 민트 가능",
+    "quantityLabel": "수량 (최대 {{max}}):",
+    "totalLabel": "총액: {{total}} ETH",
+    "saleNotActive": "판매 비활성",
+    "mintButton_one": "{{count}}개 민트",
+    "mintButton_other": "{{count}}개 민트",
+    "walletFootnote": "지갑당 최대 10개 • 랜덤 민트",
+    "primarySaleComplete": "1차 판매 완료",
+    "viewOnOpensea": "OpenSea에서 보기",
+    "walletLimitBadge": "지갑 한도: {{count}}/10",
+    "useDifferentWallet": "더 많이 민트하려면 다른 지갑을 연결하세요",
+    "forever": "DUNK POGE는 영원하다",
+    "badge": "완전 온체인 · 264년",
+    "tagline": "매우 영구적 • 매우 불변 • 대박",
+    "connectToMint": "보상을 보려면 지갑을 연결하세요",
+    "info": {
+      "i1t": "펑크스가 되고 싶었던 것.",
+      "i1d": "풀컬러 SVG, 무한 해상도, 20억 가지 이상의 조합.",
+      "i2t": "264년간 스테이킹.",
+      "i2d": "$POGE 획득. 하루 9토큰 → 1토큰으로 감소, 초기 스테이커 우대.",
+      "i3t": "아트는 컨트랙트 안에 살아있다.",
+      "i3d": "IPFS 없음, 서버 없음, 의존성 없음 — 이더리움이거나 아무것도 아니거나.",
+      "i4t": "불변 컨트랙트.",
+      "i4d": "소유자 없음, 관리자 없음, 일시정지 없음 — 코드가 법이다.",
+      "i5t": "랜덤 민트.",
+      "i5d": "선택 불가. 공급량 10,000개. 0.005 ETH.",
+      "i6t": "무료 아트 시뮬레이터.",
+      "i6d": "무제한 다운로드. 민트로 소유권 취득.",
+      "i7t": "업적은 영원히 해제.",
+      "i7d": "얼리 어답터. 다이아몬드 발. POGE 고래.",
+      "i8t": "Arweave의 정적 프론트엔드.",
+      "i8d": "백엔드 없음, 데이터베이스 없음, 팀 의존성 없음.",
+      "i9t": "펑크 정신, 도지 에너지.",
+      "i9d": "CryptoPunks와 밈 문화가 온체인에서 만나다.",
+      "i10t": "모든 것을 초월하도록 설계.",
+      "i10d": "당신의 증손자도 여전히 스테이킹할 수 있다."
+    }
+  },
+  "stake": {
+    "title": "NFT 스테이킹",
+    "walletNotConnected": "지갑 미연결",
+    "connectToView": "NFT를 보려면 지갑을 연결하세요",
+    "connectWallet": "지갑 연결",
+    "loadingTitle": "NFT 로딩 중",
+    "loadingProgress": "{{loaded}} / {{total}} 로드됨",
+    "fetchingFromChain": "블록체인에서 가져오는 중...",
+    "noNFTsTitle": "NFT를 찾을 수 없음",
+    "noNFTsDesc": "아직 Dunk Poge NFT가 없습니다",
+    "goToMint": "민트 페이지로",
+    "batchProcessing": "배치 처리 {{current}} / {{total}}",
+    "confirmInWallet": "지갑에서 각 트랜잭션 확인"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "자주 묻는 질문",
+    "desc": "민트, 스테이킹, 보상에 관한 일반적인 질문에 대한 빠른 답변",
+    "stats": {
+      "supply_label": "공급량",
+      "supply_value": "10,000",
+      "price_label": "가격",
+      "price_value": "0.005 ETH",
+      "maxMult_label": "최대 배수",
+      "maxMult_value": "2.0x",
+      "noLock_label": "잠금 없음",
+      "noLock_value": "언제든지"
+    },
+    "stillHaveQuestions": "아직 질문이 있으신가요?",
+    "joinCommunity": "지원 및 업데이트를 위해 커뮤니티에 참여하세요",
+    "tagline": "매우 도움됨 • 매우 명확함 • 대박",
+    "categories": [
+      {
+        "category": "민팅",
+        "questions": [
+          {
+            "q": "Dunk Poge NFT를 어떻게 민트하나요?",
+            "a": "지갑을 연결하고 MINT 탭으로 이동해 수량 (1-10)을 선택한 뒤 지금 민트를 클릭하세요. NFT당 0.002 ETH. 특성은 민트 시 온체인에서 생성됩니다."
+          },
+          {
+            "q": "몇 개나 민트할 수 있나요?",
+            "a": "퍼블릭 세일 중 지갑당 최대 10개. 총 공급량은 10,000개로 고정됩니다."
+          },
+          {
+            "q": "민팅은 언제 시작되나요?",
+            "a": "MINT 페이지에서 판매 상태를 확인하세요. '진행 중'이 표시되면 민팅이 활성화됩니다."
+          },
+          {
+            "q": "특성을 선택할 수 있나요?",
+            "a": "아니요. 특성은 블록체인 데이터를 사용하여 온체인에서 무작위로 생성됩니다. 공정성을 보장합니다."
+          }
+        ]
+      },
+      {
+        "category": "스테이킹",
+        "questions": [
+          {
+            "q": "NFT를 어떻게 스테이킹하나요?",
+            "a": "1. STAKE 탭으로 이동. 2. 스테이킹 컨트랙트 승인 (한 번). 3. 스테이킹할 NFT 선택. 4. STAKE 클릭. NFT가 즉시 POGE를 획득하기 시작합니다."
+          },
+          {
+            "q": "보상은 언제 받나요?",
+            "a": "보상은 발행률에 따라 매초 누적됩니다. 언제든지 청구하거나 언스테이크 시 자동 청구됩니다."
+          },
+          {
+            "q": "스테이킹 중 NFT를 잃을 수 있나요?",
+            "a": "아니요. 패널티 없이 언제든지 언스테이크할 수 있습니다. 필요한 경우 emergencyWithdraw()를 사용하세요."
+          },
+          {
+            "q": "충성도 배수란 무엇인가요?",
+            "a": "더 오래 스테이킹할수록 더 많이 획득합니다. 배수는 180일에 걸쳐 1x에서 2x로 증가합니다."
+          },
+          {
+            "q": "청구 시 배수가 초기화되나요?",
+            "a": "아니요! 배수는 스테이킹 기간을 기반으로 하며 청구 빈도가 아닙니다. 보상 청구로 충성도가 초기화되지 않습니다."
+          }
+        ]
+      },
+      {
+        "category": "보상 및 토크노믹스",
+        "questions": [
+          {
+            "q": "POGE를 얼마나 획득하나요?",
+            "a": "기본 요율은 NFT당 하루 약 10 POGE에서 시작하여 730일에 걸쳐 약 1 POGE/일로 감소합니다."
+          },
+          {
+            "q": "POGE는 무엇에 사용되나요?",
+            "a": "POGE는 생태계 토큰입니다. 미래 활용은 미정, 현재는 스테이킹 보상. 고정 공급량 10억 토큰."
+          },
+          {
+            "q": "보상 풀이 소진되면?",
+            "a": "컨트랙트는 낮은 잔액을 우아하게 처리하여 가용 금액을 지불합니다. 5억 POGE가 스테이킹에 할당됩니다."
+          },
+          {
+            "q": "나중에 보상을 늘릴 수 있나요?",
+            "a": "아니요. 스테이킹 컨트랙트는 관리자 기능이 없는 불변입니다. 발행률은 코드에 고정됩니다."
+          }
+        ]
+      },
+      {
+        "category": "기술 및 보안",
+        "questions": [
+          {
+            "q": "컨트랙트가 감사되었나요?",
+            "a": "아니요. 컨트랙트는 검증된 패턴을 사용합니다: ERC721A, ReentrancyGuard, SafeERC20. 코드는 오픈소스입니다."
+          },
+          {
+            "q": "팀이 러그풀을 할 수 있나요?",
+            "a": "아니요. 스테이킹 컨트랙트에는 관리자 기능이 없습니다 — 일시정지, 업그레이드, 출금 없음. NFT는 항상 당신의 것입니다."
+          },
+          {
+            "q": "웹사이트가 다운되면?",
+            "a": "모든 것이 웹사이트 없이 작동합니다. Etherscan을 통해 컨트랙트와 직접 상호작용하세요. NFT 메타데이터는 완전 온체인입니다."
+          },
+          {
+            "q": "메타데이터는 어디에 저장되나요?",
+            "a": "완전 온체인. SVG와 로직이 컨트랙트에 내장됩니다. IPFS 없음, 서버 없음. NFT는 이더리움이 존재하는 한 존재합니다."
+          },
+          {
+            "q": "NFT가 검열될 수 있나요?",
+            "a": "아니요. 블랙리스트나 소각 기능이 없는 표준 ERC721. 민트 후 NFT는 자유롭게 전송, 스테이킹, 판매할 수 있습니다."
+          }
+        ]
+      },
+      {
+        "category": "문제 해결",
+        "questions": [
+          {
+            "q": "트랜잭션 실패 - 어떻게 해야 하나요?",
+            "a": "확인: 1) 가스 수수료용 ETH 충분한지, 2) 판매 활성 (민트용), 3) 스테이킹 컨트랙트 승인됨, 4) 한도 초과하지 않음."
+          },
+          {
+            "q": "승인했는데 스테이킹이 안 되나요?",
+            "a": "승인은 컨트랙트별입니다. STAKE 탭에 표시된 스테이킹 컨트랙트 주소를 승인했는지 확인하세요."
+          },
+          {
+            "q": "NFT 이미지가 로드되지 않나요?",
+            "a": "NFT는 SVG입니다 — 일부 지갑/마켓플레이스는 렌더링에 시간이 걸릴 수 있습니다. Etherscan의 tokenURI()로 직접 확인 가능합니다."
+          },
+          {
+            "q": "즉시 언스테이킹할 수 있나요?",
+            "a": "예, 언제든지. 잠금 기간 없음, 수수료 없음. STAKE 탭으로 이동, NFT 선택, UNSTAKE 클릭."
+          }
+        ]
+      }
+    ]
+  },
+  "simulator": {
+    "generating": "NFT 생성 중...",
+    "picked": "선택됨",
+    "bgDark": "어두움",
+    "bgLight": "밝음",
+    "bgGrid": "격자",
+    "randomBtn": "랜덤 DUNK POGE"
+  }
+}

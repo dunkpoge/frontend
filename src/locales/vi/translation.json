@@ -1,0 +1,712 @@
+{
+  "common": {
+    "connectWallet": "KẾT NỐI VÍ",
+    "disconnect": "NGẮT KẾT NỐI",
+    "switchWallet": "ĐỔI VÍ",
+    "connected": "ĐÃ KẾT NỐI",
+    "installMetamask": "CÀI METAMASK",
+    "walletNotConnected": "VÍ CHƯA KẾT NỐI",
+    "wrongNetwork": "Sai mạng",
+    "processing": "ĐANG XỬ LÝ...",
+    "onChain": "FULLY ON-CHAIN"
+  },
+  "nav": {
+    "mint": "MINT",
+    "stake": "STAKE",
+    "rewards": "PHẦN THƯỞNG",
+    "mythology": "THẦN THOẠI"
+  },
+  "footer": {
+    "smartContracts": "HỢP ĐỒNG THÔNG MINH",
+    "trustlessOnEthereum": "KHÔNG CẦN TIN TƯỞNG TRÊN ETHEREUM",
+    "nftContract": "HỢP ĐỒNG NFT",
+    "pogeToken": "TOKEN $POGE",
+    "stakingContract": "HỢP ĐỒNG STAKING",
+    "docs": "TÀI LIỆU",
+    "faq": "FAQ",
+    "privacy": "RIÊNG TƯ",
+    "github": "GITHUB"
+  },
+  "stakeAction": {
+    "stake": "🚀 STAKE {{count}} NFT",
+    "stake_plural": "🚀 STAKE {{count}} NFTs",
+    "unstake": "🔙 RÚT {{count}} NFT",
+    "unstake_plural": "🔙 RÚT {{count}} NFTs",
+    "unstakeAllFirst": "⚠️ RÚT TẤT CẢ ({{count}}) TRƯỚC",
+    "revokeApproval": "THU HỒI PHÊ DUYỆT"
+  },
+  "controlBar": {
+    "staked": "ĐANG STAKE",
+    "idle": "NHÀN RỖNG",
+    "selected": "ĐÃ CHỌN",
+    "sync": "ĐỒNG BỘ",
+    "syncing": "ĐANG ĐỒNG BỘ",
+    "approved": "ĐÃ PHÊ DUYỆT",
+    "notApproved": "CHƯA PHÊ DUYỆT",
+    "revoke": "THU HỒI",
+    "revoking": "ĐANG THU HỒI...",
+    "approve": "PHÊ DUYỆT",
+    "approving": "ĐANG PHÊ DUYỆT...",
+    "emergency": "KHẨN CẤP",
+    "stakeAll": "🚀 STAKE TẤT CẢ {{count}} NFT",
+    "stakeAll_plural": "🚀 STAKE TẤT CẢ {{count}} NFTs",
+    "approveToStakeAll": "🔒 PHÊ DUYỆT ĐỂ STAKE",
+    "unstakeAll": "📦 RÚT TẤT CẢ {{count}} NFT",
+    "unstakeAll_plural": "📦 RÚT TẤT CẢ {{count}} NFTs",
+    "selectBelow": "Hoặc chọn NFT cụ thể bên dưới để thực hiện hàng loạt",
+    "emergencyTitle": "RÚT KHẨN CẤP",
+    "emergencyWarning": "Thao tác này sẽ rút TẤT CẢ {{count}} NFT ngay lập tức. Bạn sẽ mất tất cả bội số tích lũy. Không thể hoàn tác.",
+    "emergencyConfirm": "CÓ, RÚT TẤT CẢ",
+    "cancel": "HỦY",
+    "unstaking": "ĐANG RÚT..."
+  },
+  "actionBar": {
+    "selected": "ĐÃ CHỌN {{count}}",
+    "readyToStake": "→ {{count}} sẵn sàng stake",
+    "readyToUnstake": "→ {{count}} sẵn sàng rút",
+    "approveFirst": "🔒 PHÊ DUYỆT TRƯỚC",
+    "stake": "🚀 STAKE {{count}}",
+    "unstake": "📦 RÚT {{count}}",
+    "clear": "XÓA",
+    "approving": "ĐANG PHÊ DUYỆT...",
+    "staking": "ĐANG STAKE...",
+    "unstaking": "ĐANG RÚT...",
+    "estEarnings": "Thu nhập ước tính: ~{{amount}} POGE/ngày"
+  },
+  "nftCard": {
+    "tabNFT": "NFT",
+    "tabTraits": "THUỘC TÍNH",
+    "tabStaking": "STAKE",
+    "noTraits": "Không có dữ liệu thuộc tính",
+    "multiplier": "Bội số",
+    "days": "Ngày",
+    "daily": "Hàng ngày",
+    "stakedSince": "Stake từ {{date}}",
+    "idle": "NHÀN RỖI",
+    "notStaked": "Chưa stake",
+    "selectToStake": "Chọn để stake",
+    "bgDark": "tối",
+    "bgLite": "sáng",
+    "bgGrid": "lưới",
+    "perDay": "+{{amount}}/ngày"
+  },
+  "approvalBanner": {
+    "approvalNeeded": "CẦN PHÊ DUYỆT ĐỂ STAKE",
+    "approveNow": "PHÊ DUYỆT NGAY",
+    "approving": "ĐANG PHÊ DUYỆT...",
+    "stakingApproved": "✅ ĐÃ PHÊ DUYỆT STAKE",
+    "earning": "ĐANG STAKE",
+    "idle": "NHÀN RỖNG",
+    "revokeApproval": "THU HỒI PHÊ DUYỆT",
+    "revoking": "ĐANG THU HỒI...",
+    "viewRewards": "XEM PHẦN THƯỞNG"
+  },
+  "statusSummary": {
+    "readyToStake": "NHÀN RỖNG",
+    "currentlyEarning": "ĐANG STAKE",
+    "selectedForAction": "ĐÃ CHỌN HÀNH ĐỘNG",
+    "selectNFTs": "Chọn NFT ở trên",
+    "readyToUnstake": "Sẵn sàng rút",
+    "readyToStakeLabel": "Sẵn sàng stake",
+    "estPerDay": "Ước tính {{amount}} POGE/ngày",
+    "earningPerDay": "Kiếm {{amount}} POGE/ngày",
+    "nSelected": "{{count}} đã chọn"
+  },
+  "selectionControls": {
+    "title": "ĐIỀU KHIỂN CHỌN:",
+    "nOfTotal": "{{count}} trong {{total}} đã chọn",
+    "selectN": "CHỌN {{count}}",
+    "clear": "XÓA",
+    "idle": "NHÀN RỖNG",
+    "staked": "ĐANG STAKE",
+    "maxSelected": "ℹ️ Đã chọn tối đa {{count}} NFT (giới hạn hợp đồng)"
+  },
+  "rewards": {
+    "title": "PHẦN THƯỞNG $POGE CỦA TÔI",
+    "walletNotConnected": "VÍ CHƯA KẾT NỐI",
+    "connectToView": "Kết nối ví để xem phần thưởng",
+    "connectWallet": "KẾT NỐI VÍ",
+    "claimRewards": "NHẬN PHẦN THƯỞNG",
+    "pendingRewards": "PHẦN THƯỞNG CHỜ NHẬN",
+    "perSecond": "+{{amount}} POGE/giây",
+    "claiming": "ĐANG NHẬN...",
+    "claimNow": "💰 NHẬN NGAY",
+    "accumulating": "⏳ ĐANG TÍCH LŨY PHẦN THƯỞNG...",
+    "liveFor": "Hoạt động được {{time}}",
+    "startEarning": "🚀 BẮT ĐẦU KIẾM NGAY",
+    "claimedPoge": "POGE ĐÃ NHẬN:",
+    "dailyReward": "PHẦN THƯỞNG HÀNG NGÀY:",
+    "stakedNFTs": "NFT ĐANG STAKE:",
+    "stakedLabel": "{{staked}} đang stake",
+    "inWallet": "{{count}} trong ví",
+    "manageStaking": "⚡ QUẢN LÝ STAKE",
+    "achievements": "THÀNH TÍCH",
+    "progress": "TIẾN ĐỘ",
+    "unlocked": "✓ ĐÃ MỞ KHÓA",
+    "locked": "CHƯA MỞ KHÓA",
+    "totalOwned": "TỔNG SỞ HỮU:",
+    "peakStaked": "ĐỈNH STAKE:",
+    "lifetimeClaimed": "TỔNG ĐÃ NHẬN:",
+    "startJourney": "🎯 BẮT ĐẦU HÀNH TRÌNH",
+    "startJourneyDesc": "Mở khóa thành tích bằng cách stake NFT",
+    "achievementsToUnlock": "💪 {{count}} THÀNH TÍCH CẦN MỞ KHÓA",
+    "keepGoing": "Bạn đang kiếm tiền! Tiếp tục để mở khóa thành tích",
+    "moreTogo": "🔥 CÒN {{count}} NỮA",
+    "keepStaking": "Tiếp tục stake để mở khóa thêm thành tích",
+    "legendStatus": "🏆 HUYỀN THOẠI",
+    "legendDesc": "Tất cả thành tích đã mở khóa!",
+    "earlyAdopter": "Người Tiên Phong",
+    "earlyAdopterDesc": "100 staker đầu tiên",
+    "diamondPaws": "Móng Vuốt Kim Cương",
+    "diamondPawsDesc": "Stake 180 ngày",
+    "collector": "Nhà Sưu Tập",
+    "collectorDesc": "10+ stake 7 ngày",
+    "pogeWhale": "Cá Voi POGE",
+    "pogeWhaleDesc": "10.000+ POGE",
+    "dataLoading": "⛓ ĐANG ĐỌC DỮ LIỆU CHAIN..."
+  },
+  "mythology": {
+    "title": "THẦN THOẠI",
+    "aiSongs": "Đã tạo hàng nghìn bài hát bằng AI.",
+    "firstTry": "Một bài ra đúng ngay lần đầu.",
+    "usedIt": "Dùng luôn.",
+    "originTitle": "NGUỒN GỐC",
+    "origin1": "Bắt đầu là punks với tai chó.",
+    "origin2": "AI viết một bài hát, gọi nhân vật là \"cô ấy\".",
+    "origin3": "Thay đổi nghệ thuật cho phù hợp.",
+    "origin4": "10.000 punk. On-chain mãi mãi.",
+    "technicalTitle": "KỸ THUẬT",
+    "tech1": "Hợp đồng duy nhất bất biến. Mạng Ethereum.",
+    "tech2": "SVG, không phải JPEG. Độ phân giải độc lập.",
+    "tech3": "On-chain, không phải IPFS. Không có máy chủ.",
+    "tech4": "2 tỷ kết hợp. Mãi mãi.",
+    "nft20": "NFT 2.0",
+    "songTitle": "BÀI HÁT",
+    "clickPlay": "Nhấn PLAY để bắt đầu",
+    "play": "PLAY",
+    "pause": "TẠM DỪNG",
+    "fiveVerses": "NĂM ĐOẠN",
+    "verseConvergence": "HỘI TỤ",
+    "verseConvergenceDesc": "CryptoPunks gặp Doge. Dunk được chọn.",
+    "verseAwakening": "THỨC TỈNH",
+    "verseAwakeningDesc": "Thoát khỏi thuyết tất định. Vững mạnh tài chính.",
+    "verseFreedom": "TỰ DO",
+    "verseFreedomDesc": "Bạn tin vào điều gì?",
+    "verseRevelation": "KHẢI HUYỀN",
+    "verseRevelationDesc": "Mô hình Ponzi màu đu quay.",
+    "verseCalling": "SỨ MỆNH",
+    "verseCallingDesc": "Sinh ra để làm điều này.",
+    "factsLine1": "2 tỷ hình thức. 10.000 đã mint.",
+    "factsLine2": "Mô phỏng miễn phí. Quyền sở hữu tách biệt.",
+    "factsLine3": "Stake nhận phần thưởng $POGE.",
+    "factsLine4": "SVG on-chain. Hợp đồng bất biến.",
+    "factsQuote": "\"Cuộc sống là một mô hình Ponzi màu đu quay\"",
+    "forever": "DUNK POGE LÀ MÃI MÃI"
+  },
+  "privacy": {
+    "title": "CHÍNH SÁCH RIÊNG TƯ",
+    "headline": "CHÚNG TÔI KHÔNG THU THẬP GÌ",
+    "subheadline": "Đây là toàn bộ chính sách riêng tư.",
+    "whyTitle": "TẠI SAO?",
+    "why1": "Toàn bộ ứng dụng là frontend tĩnh giao tiếp trực tiếp với hợp đồng thông minh Ethereum.",
+    "why2": "Thực sự không có backend để nhận dữ liệu.",
+    "why3": "Chúng tôi không thể thu thập dữ liệu. Kiến trúc ngăn chặn điều đó.",
+    "dontKnowTitle": "CHÚNG TÔI KHÔNG BIẾT",
+    "dontKnow": [
+      "Bạn là ai",
+      "Bạn ở đâu",
+      "Bạn dùng trình duyệt gì",
+      "Bạn tìm thấy trang này như thế nào",
+      "Bạn làm gì ở đây",
+      "Bạn đã truy cập bao nhiêu lần",
+      "Bạn có mint/stake không",
+      "Bất cứ điều gì về bạn"
+    ],
+    "publicTitle": "⚠️ CÁI GÌ LÀ CÔNG KHAI (BLOCKCHAIN)",
+    "publicDesc": "Khi bạn tương tác với Ethereum, một số thông tin hiển thị công khai trên blockchain:",
+    "publicItems": [
+      "Địa chỉ ví của bạn",
+      "Lịch sử giao dịch",
+      "Quyền sở hữu NFT",
+      "Số dư POGE"
+    ],
+    "publicBut": "NHƯNG DỮ LIỆU NÀY:",
+    "publicButItems": [
+      "Không được chúng tôi thu thập",
+      "Không trên máy chủ của chúng tôi (chúng tôi không có)",
+      "Là giả danh",
+      "Là lựa chọn của bạn (bạn đã giao dịch)"
+    ],
+    "verifyTitle": "CÁCH XÁC MINH",
+    "networkTab": "TAB MẠNG",
+    "networkDesc": "Mở DevTools trình duyệt (F12) → Network",
+    "networkItem1": "Cuộc gọi RPC đến Ethereum",
+    "networkItem2": "Không có cuộc gọi phân tích",
+    "networkItem3": "Không có pixel theo dõi",
+    "sourceCode": "MÃ NGUỒN",
+    "sourceDesc": "Tất cả code là open source trên GitHub",
+    "viewGithub": "XEM TRÊN GITHUB →",
+    "runLocally": "CHẠY CỤC BỘ",
+    "runDesc": "Clone repo, chạy trên máy của bạn",
+    "cookiesTitle": "COOKIE VÀ LƯU TRỮ CỤC BỘ",
+    "cookiesUse": "CHÚNG TÔI CHỈ DÙNG localStorage CHO:",
+    "cookiesItems": [
+      "Tùy chọn kết nối ví (tùy chọn)",
+      "Cache phản hồi RPC (hiệu suất)"
+    ],
+    "cookiesNote": "Dữ liệu này không bao giờ rời khỏi trình duyệt của bạn.",
+    "cookiesNo": "KHÔNG:",
+    "cookiesNoItems": [
+      "Cookie theo dõi",
+      "Cookie phiên",
+      "Cookie bên thứ ba",
+      "Cookie phân tích"
+    ],
+    "legalTitle": "TUÂN THỦ PHÁP LÝ",
+    "gdpr": "GDPR (Châu Âu):",
+    "gdprDesc": "Không có dữ liệu = không có gánh nặng tuân thủ.",
+    "ccpa": "CCPA (California):",
+    "ccpaDesc": "Chúng tôi không có dữ liệu để bán, chia sẻ hoặc xóa.",
+    "otherLaws": "Các Luật Riêng Tư Khác:",
+    "otherLawsDesc": "Luật điều chỉnh việc thu thập dữ liệu. Chúng tôi không thu thập gì.",
+    "contactTitle": "LIÊN HỆ",
+    "contactNote": "Thành thật mà nói, không có nhiều thứ để bàn. Chúng tôi không thu thập gì.",
+    "philTitle": "GHI CHÚ TRIẾT HỌC",
+    "philHeadline": "RIÊNG TƯ LÀ CHỦ QUYỀN",
+    "phil1": "Nếu bạn không nên tin tưởng chúng tôi với tài sản của mình, bạn cũng không phải tin tưởng chúng tôi với dữ liệu của mình.",
+    "phil2": "Đây là hình thức phi tập trung thực sự: chúng tôi thậm chí không biết bạn tồn tại trừ khi bạn giao dịch on-chain.",
+    "phil3": "Ngay cả khi đó, chúng tôi chỉ biết một địa chỉ ví đã tương tác với hợp đồng. Chúng tôi không biết đó là bạn.",
+    "summaryTitle": "TÓM TẮT",
+    "summaryItems": [
+      "Không thu thập dữ liệu",
+      "Frontend tĩnh (không có backend)",
+      "Open source (tự xác minh)",
+      "Không có phân tích, cookie hoặc theo dõi",
+      "Dữ liệu blockchain là công khai (vốn có của Ethereum)",
+      "Bạn có thể xác minh tất cả những điều này"
+    ],
+    "summaryClose": "Vậy là xong. Đó là chính sách riêng tư.",
+    "tagline": "Rất Riêng Tư • Rất Có Chủ Quyền • Tuyệt"
+  },
+  "docs": {
+    "title": "TÀI LIỆU",
+    "subtitle": "Hệ Sinh Thái NFT Không Cần Tin Tưởng",
+    "desc": "10.000 NFT generative hoàn toàn on-chain với phần thưởng staking",
+    "viewSource": "XEM MÃ NGUỒN",
+    "philosophy": "Triết Lý",
+    "architecture": "Kiến Trúc",
+    "security": "Bảo Mật",
+    "philosophyTitle": "Triết Lý và Nguyên Tắc",
+    "manifesto": "Tuyên Ngôn Không Tin Tưởng",
+    "manifestoTitle": "SỰ NHẤT QUÁN VỚI TUYÊN NGÔN TRUSTLESS",
+    "manifestoIntro": "Dunk Poge thể hiện các nguyên tắc được nêu trong",
+    "noSecrets": "KHÔNG CÓ BÍ MẬT QUAN TRỌNG",
+    "noSecretsDesc": "Việc tạo NFT sử dụng dữ liệu blockchain công khai. Không có khóa riêng tư nào kiểm soát tài sản người dùng sau khi triển khai.",
+    "principles": [
+      {
+        "title": "Tự Chủ",
+        "desc": "Mỗi người dùng tự ủy quyền hành động của mình. Không ai mint, stake hoặc nhận thay bạn."
+      },
+      {
+        "title": "Có Thể Xác Minh",
+        "desc": "Tất cả metadata NFT lưu on-chain dưới dạng SVG. Bất kỳ ai cũng có thể xác minh từ dữ liệu công khai."
+      },
+      {
+        "title": "Kháng Kiểm Duyệt",
+        "desc": "Không có admin nào có thể ngăn rút stake hoặc nhận phần thưởng."
+      },
+      {
+        "title": "Bài Kiểm Tra Bỏ Đi",
+        "desc": "Nếu đội nhóm biến mất, hợp đồng vẫn hoạt động. NFT vẫn là của bạn."
+      },
+      {
+        "title": "Khả Năng Tiếp Cận",
+        "desc": "Giá mint (0,005 ETH) và lưu trữ on-chain cho phép bất kỳ ai tham gia."
+      },
+      {
+        "title": "Minh Bạch",
+        "desc": "Tỷ lệ phát hành, đường cong suy giảm và bội số là hằng số công khai."
+      }
+    ],
+    "archTitle": "Kiến Trúc Hệ Thống",
+    "contractAddresses": "ĐỊA CHỈ HỢP ĐỒNG",
+    "view": "XEM",
+    "contractGrid": [
+      {
+        "name": "DunkPoge NFT",
+        "type": "ERC721A",
+        "features": [
+          "Cung cấp 10K",
+          "SVG on-chain",
+          "Mint hàng loạt",
+          "5% royalty"
+        ]
+      },
+      {
+        "name": "Pogecoin (POGE)",
+        "type": "ERC20",
+        "features": [
+          "Cung cố định 1 tỷ",
+          "Không admin",
+          "Phần thưởng staking",
+          "ERC20 chuẩn"
+        ]
+      },
+      {
+        "name": "Hợp Đồng Staking",
+        "type": "Vault",
+        "features": [
+          "Bất biến",
+          "Đường cong suy giảm",
+          "Bội số 2x",
+          "Thành tích"
+        ]
+      }
+    ],
+    "nftSpecTitle": "Thông Số NFT",
+    "keyParams": "Tham Số Chính",
+    "traitLayers": "Lớp Thuộc Tính",
+    "params": [
+      {
+        "label": "CUNG TỐI ĐA:",
+        "value": "10.000"
+      },
+      {
+        "label": "GIÁ:",
+        "value": "0,005 ETH"
+      },
+      {
+        "label": "TỐI ĐA/VÍ:",
+        "value": "10"
+      },
+      {
+        "label": "ROYALTY:",
+        "value": "5%"
+      },
+      {
+        "label": "KẾT HỢP:",
+        "value": "~2 TỶ"
+      }
+    ],
+    "traits": [
+      "10 tông màu da",
+      "7 màu mắt",
+      "7 màu môi",
+      "18 kiểu tóc (80% có tạo kiểu)",
+      "15 màu tóc",
+      "11 kiểu kính (60% có kính)",
+      "10 kiểu mũ (60% có mũ)",
+      "8 phụ kiện lớp 1 (có trọng số)",
+      "4 phụ kiện lớp 2 (85% không có)",
+      "5 phụ kiện lớp 3 (70% không có)"
+    ],
+    "rarityTitle": "HỆ THỐNG ĐỘ HIẾM PHÁT SINH",
+    "rarityDesc": "Độ hiếm được xác định bởi phân phối mint thực tế. Thao túng hệ thống làm cho thuộc tính mục tiêu PHỔ BIẾN HƠN.",
+    "stakingTitle": "Cơ Chế Staking",
+    "emissionRates": "TỶ LỆ PHÁT HÀNH",
+    "loyaltyMults": "BỘI SỐ TRUNG THÀNH",
+    "supplyPlanning": "Lập Kế Hoạch Cung",
+    "achievementsTitle": "THÀNH TÍCH",
+    "achievements": [
+      {
+        "name": "Người Tiên Phong",
+        "req": "Stake trong 30 ngày đầu"
+      },
+      {
+        "name": "Móng Vuốt Kim Cương",
+        "req": "Stake liên tục 180+ ngày"
+      },
+      {
+        "name": "Nhà Sưu Tập",
+        "req": "10+ NFT stake 7+ ngày ở đỉnh"
+      },
+      {
+        "name": "Cá Voi POGE",
+        "req": "Kiếm tổng cộng 10.000+ POGE"
+      }
+    ],
+    "securityTitle": "Bảo Mật và Không Cần Tin Tưởng",
+    "guarantees": [
+      {
+        "title": "Không Phụ Thuộc Bên Ngoài",
+        "desc": "Metadata NFT hoàn toàn on-chain. Không IPFS, không HTTP, không phụ thuộc máy chủ."
+      },
+      {
+        "title": "Kiểm Soát Người Dùng",
+        "desc": "NFT của bạn luôn có thể rút. Cạn kiệt pool dẫn đến thanh toán một phần, không hoàn tác."
+      },
+      {
+        "title": "Có Thể Xác Minh",
+        "desc": "Bất kỳ ai có thể xác minh độ hiếm, phần thưởng chờ và tỷ lệ phát hành từ code hợp đồng."
+      },
+      {
+        "title": "Kháng Kiểm Duyệt",
+        "desc": "Không có admin nào có thể ngăn rút stake hoặc nhận phần thưởng."
+      },
+      {
+        "title": "Bất Biến",
+        "desc": "Hợp đồng staking có không chức năng admin. Không thể tạm dừng hoặc nâng cấp."
+      },
+      {
+        "title": "Phục Hồi Khẩn Cấp",
+        "desc": "emergencyWithdraw() luôn trả lại NFT, ngay cả khi mất phần thưởng."
+      }
+    ],
+    "auditedPatterns": "MẪU ĐÃ KIỂM TOÁN",
+    "patterns": [
+      "ReentrancyGuard trên tất cả hàm thay đổi trạng thái",
+      "SafeERC20 ngăn lỗi chuyển im lặng",
+      "ERC721A mint hàng loạt được kiểm nghiệm",
+      "Mẫu Checks-Effects-Interactions",
+      "Không có cuộc gọi bên ngoài ngoài ERC20/721",
+      "Độ sâu stack được tối ưu hóa cho hiệu quả gas"
+    ],
+    "techDeepDive": "Phân Tích Kỹ Thuật Chuyên Sâu",
+    "svgGenTitle": "TẠO SVG ON-CHAIN",
+    "svgWhyLabel": "Tại sao SVG?",
+    "svgReasons": [
+      "Độc lập độ phân giải (mở rộng vô hạn)",
+      "Nhỏ hơn dữ liệu ảnh base64",
+      "Hỗ trợ trình duyệt gốc",
+      "Cho phép tạo kiểu động"
+    ],
+    "emissionMathTitle": "TOÁN HỌC SUY GIẢM PHÁT HÀNH",
+    "emissionFormula": "Công Thức Suy Giảm Bậc Hai:",
+    "emissionExample": "Dòng Thời Gian Ví Dụ:",
+    "emissionTimeline": [
+      "Ngày 1: ~10 POGE/ngày mỗi NFT",
+      "Ngày 180: ~6,25 POGE/ngày (bội 1,5x → 9,375 thực tế)",
+      "Ngày 365: ~3,75 POGE/ngày (bội 2x → 7,5 thực tế)",
+      "Ngày 730: ~1 POGE/ngày (bội 2x → 2 thực tế)"
+    ],
+    "integrationTitle": "Hướng Dẫn Tích Hợp",
+    "readOps": "THAO TÁC ĐỌC (MIỄN PHÍ)",
+    "writeOps": "THAO TÁC GHI (TỐN GAS)",
+    "resourcesTitle": "Tài Nguyên",
+    "footerQuote": "\"Cuộc sống là một mô hình Ponzi màu đu quay\"",
+    "footerQuoteAttr": "— Bài Hát, Đoạn IV",
+    "tagline": "Rất Nhiều Tài Liệu • Rất Không Tin Tưởng • Tuyệt"
+  },
+  "header": {
+    "minted": "{{count}} / 10.000 ĐÃ MINT",
+    "left": "CÒN {{count}}",
+    "price": "{{price}} ETH",
+    "soldOutMinted": "10.000 / 10.000 ĐÃ MINT",
+    "soldOut": "ĐÃ HẾT HÀNG",
+    "buyOnOpensea": "MUA TRÊN OPENSEA"
+  },
+  "mint": {
+    "experienceArt": "TRẢI NGHIỆM NGHỆ THUẬT",
+    "mintYourDunk": "MINT DUNK CỦA BẠN",
+    "walletLimitTitle": "🔒 ĐẠT GIỚI HẠN VÍ",
+    "walletLimitDesc": "Ví này đang giữ {{count}} NFT. Tối đa 10 mỗi ví.",
+    "walletLimitHint": "Dùng ví khác để mint thêm Dunk Poge.",
+    "soldOutTitle": "🎉 ĐÃ HẾT HÀNG",
+    "soldOutDesc": "Tất cả 10.000 NFT Dunk Poge đã được mint. Tìm trên thị trường thứ cấp:",
+    "saleNotStartedTitle": "⏳ CHƯA BẮT ĐẦU BÁN",
+    "saleNotStartedDesc": "Mint chưa bắt đầu. Quay lại sau hoặc theo dõi thông báo của chúng tôi.",
+    "salePausedTitle": "⏸️ BÁN TẠM DỪNG",
+    "salePausedDesc": "Mint tạm thời bị vô hiệu hóa. {{totalSupply}}/10.000 đã được mint.",
+    "mintInfo": "THÔNG TIN MINT",
+    "statusLabel": "TRẠNG THÁI:",
+    "statusLive": "✓ ĐANG HOẠT ĐỘNG",
+    "statusPaused": "✗ TẠM DỪNG",
+    "statusSoldOut": "🎉 ĐÃ HẾT HÀNG",
+    "priceLabel": "GIÁ:",
+    "mintedLabel": "ĐÃ MINT:",
+    "youOwnLabel": "BẠN SỞ HỮU:",
+    "canMintMore_one": "Bạn có thể mint thêm {{count}} NFT",
+    "canMintMore_other": "Bạn có thể mint thêm {{count}} NFT",
+    "quantityLabel": "SỐ LƯỢNG (TỐI ĐA {{max}}):",
+    "totalLabel": "TỔNG: {{total}} ETH",
+    "saleNotActive": "BÁN CHƯA HOẠT ĐỘNG",
+    "mintButton_one": "MINT {{count}} NFT",
+    "mintButton_other": "MINT {{count}} NFT",
+    "walletFootnote": "Tối đa 10 NFT mỗi ví • Mint ngẫu nhiên",
+    "primarySaleComplete": "BÁN SƠ CẤP HOÀN TẤT",
+    "viewOnOpensea": "XEM TRÊN OPENSEA",
+    "walletLimitBadge": "GIỚI HẠN VÍ: {{count}}/10",
+    "useDifferentWallet": "Kết nối ví khác để mint thêm",
+    "forever": "DUNK POGE LÀ MÃI MÃI",
+    "badge": "HOÀN TOÀN ON-CHAIN · 264 NĂM",
+    "tagline": "Rất Vĩnh Cửu • Rất Bất Biến • Tuyệt",
+    "connectToMint": "Kết nối ví để xem phần thưởng",
+    "info": {
+      "i1t": "Điều Punks muốn trở thành.",
+      "i1d": "SVG đầy màu sắc, độ phân giải vô hạn, hơn 2 tỷ kết hợp.",
+      "i2t": "Stake 264 năm.",
+      "i2d": "Kiếm $POGE. 9 token/ngày → 1/ngày, thưởng staker sớm.",
+      "i3t": "Nghệ thuật sống trong hợp đồng.",
+      "i3d": "Không IPFS, không máy chủ — Ethereum hoặc không có gì.",
+      "i4t": "Hợp đồng bất biến.",
+      "i4d": "Không chủ sở hữu, không admin, không tạm dừng — code là luật.",
+      "i5t": "Mint ngẫu nhiên.",
+      "i5d": "Bạn không thể chọn. Cung 10.000. 0,005 ETH.",
+      "i6t": "Trình mô phỏng miễn phí.",
+      "i6d": "Tải không giới hạn. Mint tốn quyền sở hữu.",
+      "i7t": "Thành tích mở khóa mãi mãi.",
+      "i7d": "Người Tiên Phong. Móng Vuốt Kim Cương. Cá Voi POGE.",
+      "i8t": "Frontend tĩnh trên Arweave.",
+      "i8d": "Không backend, không cơ sở dữ liệu, không phụ thuộc đội.",
+      "i9t": "Tinh thần punk, năng lượng Doge.",
+      "i9d": "CryptoPunks gặp văn hóa meme on-chain.",
+      "i10t": "Được thiết kế để tồn tại mãi.",
+      "i10d": "Con cháu bạn vẫn có thể stake."
+    }
+  },
+  "stake": {
+    "title": "STAKE NFT CỦA BẠN",
+    "walletNotConnected": "VÍ CHƯA KẾT NỐI",
+    "connectToView": "Kết nối ví để xem NFT của bạn",
+    "connectWallet": "KẾT NỐI VÍ",
+    "loadingTitle": "ĐANG TẢI NFT",
+    "loadingProgress": "{{loaded}} / {{total}} đã tải",
+    "fetchingFromChain": "Đang lấy từ blockchain...",
+    "noNFTsTitle": "KHÔNG TÌM THẤY NFT",
+    "noNFTsDesc": "Bạn chưa có NFT Dunk Poge nào",
+    "goToMint": "ĐẾN TRANG MINT",
+    "batchProcessing": "Đang xử lý lô {{current}} / {{total}}",
+    "confirmInWallet": "Vui lòng xác nhận mỗi giao dịch trong ví"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "CÂU HỎI THƯỜNG GẶP",
+    "desc": "Trả lời nhanh các câu hỏi phổ biến về mint, staking và phần thưởng",
+    "stats": {
+      "supply_label": "CUNG",
+      "supply_value": "10.000",
+      "price_label": "GIÁ",
+      "price_value": "0,005 ETH",
+      "maxMult_label": "BỘI TỐI ĐA",
+      "maxMult_value": "2,0x",
+      "noLock_label": "KHÔNG KHÓA",
+      "noLock_value": "BẤT KỲ LÚC NÀO"
+    },
+    "stillHaveQuestions": "CÒN CÂU HỎI?",
+    "joinCommunity": "Tham gia cộng đồng để được hỗ trợ và cập nhật",
+    "tagline": "Rất Nhiều Giúp Đỡ • Rất Rõ Ràng • Tuyệt",
+    "categories": [
+      {
+        "category": "Mint",
+        "questions": [
+          {
+            "q": "Làm thế nào để mint NFT Dunk Poge?",
+            "a": "Kết nối ví, vào tab MINT, chọn số lượng (1-10) và nhấn MINT NGAY. Mỗi NFT có giá 0,002 ETH. Thuộc tính NFT được tạo on-chain lúc mint."
+          },
+          {
+            "q": "Tôi có thể mint bao nhiêu?",
+            "a": "Tối đa 10 NFT mỗi ví trong đợt bán công khai. Tổng cung cố định là 10.000 NFT."
+          },
+          {
+            "q": "Khi nào bắt đầu mint?",
+            "a": "Kiểm tra trạng thái bán trên trang MINT. Khi hiển thị 'ĐANG HOẠT ĐỘNG', mint đã mở."
+          },
+          {
+            "q": "Tôi có thể chọn thuộc tính không?",
+            "a": "Không. Thuộc tính được tạo ngẫu nhiên on-chain sử dụng dữ liệu blockchain. Điều này đảm bảo công bằng."
+          }
+        ]
+      },
+      {
+        "category": "Staking",
+        "questions": [
+          {
+            "q": "Làm thế nào để stake NFT?",
+            "a": "1. Vào tab STAKE. 2. Phê duyệt hợp đồng staking (một lần). 3. Chọn NFT. 4. Nhấn STAKE. NFT được chuyển và bắt đầu kiếm POGE ngay."
+          },
+          {
+            "q": "Khi nào nhận phần thưởng?",
+            "a": "Phần thưởng tích lũy mỗi giây. Bạn có thể nhận bất cứ lúc nào hoặc tự động nhận khi rút stake."
+          },
+          {
+            "q": "Tôi có thể mất NFT khi stake không?",
+            "a": "Không. Bạn có thể rút bất cứ lúc nào không bị phạt. Dùng emergencyWithdraw() nếu cần."
+          },
+          {
+            "q": "Bội số trung thành là gì?",
+            "a": "Stake lâu hơn, kiếm nhiều hơn. Bội số tăng từ 1x đến 2x trong 180 ngày."
+          },
+          {
+            "q": "Nhận phần thưởng có reset bội số không?",
+            "a": "Không! Bội số dựa trên thời gian stake, không phải tần suất nhận. Nhận phần thưởng KHÔNG reset tiến độ."
+          }
+        ]
+      },
+      {
+        "category": "Phần Thưởng và Token",
+        "questions": [
+          {
+            "q": "Tôi kiếm được bao nhiêu POGE?",
+            "a": "Tỷ lệ cơ bản bắt đầu ~10 POGE/ngày mỗi NFT, giảm xuống ~1 POGE/ngày trong 730 ngày."
+          },
+          {
+            "q": "POGE dùng để làm gì?",
+            "a": "POGE là token hệ sinh thái. Tiện ích tương lai chưa xác định, hiện tại dùng làm phần thưởng staking. Cung cố định 1 tỷ token."
+          },
+          {
+            "q": "Nếu pool cạn kiệt thì sao?",
+            "a": "Hợp đồng xử lý ổn định với số dư thấp bằng cách trả phần có sẵn. 500M POGE được phân bổ cho staking."
+          },
+          {
+            "q": "Có thể tăng phần thưởng không?",
+            "a": "Không. Hợp đồng staking bất biến không có chức năng admin. Tỷ lệ phát hành cố định trong code."
+          }
+        ]
+      },
+      {
+        "category": "Kỹ Thuật và Bảo Mật",
+        "questions": [
+          {
+            "q": "Hợp đồng có được kiểm toán không?",
+            "a": "Không. Hợp đồng sử dụng các mẫu đã được kiểm nghiệm: ERC721A, ReentrancyGuard, SafeERC20. Code open source."
+          },
+          {
+            "q": "Đội nhóm có thể rug pull không?",
+            "a": "Không. Hợp đồng staking không có chức năng admin - không tạm dừng, không nâng cấp, không rút. NFT luôn là của bạn."
+          },
+          {
+            "q": "Nếu website sập thì sao?",
+            "a": "Mọi thứ hoạt động không cần website. Tương tác trực tiếp qua Etherscan. Metadata NFT hoàn toàn on-chain."
+          },
+          {
+            "q": "Metadata được lưu ở đâu?",
+            "a": "Hoàn toàn on-chain. SVG và logic được nhúng vào hợp đồng. Không IPFS, không máy chủ. NFT tồn tại mãi như Ethereum."
+          },
+          {
+            "q": "NFT có thể bị kiểm duyệt không?",
+            "a": "Không. ERC721 chuẩn không có danh sách đen. Sau khi mint, NFT là của bạn để chuyển, stake hoặc bán."
+          }
+        ]
+      },
+      {
+        "category": "Xử Lý Sự Cố",
+        "questions": [
+          {
+            "q": "Giao dịch thất bại - phải làm gì?",
+            "a": "Kiểm tra: 1) ETH đủ cho gas, 2) Bán đang hoạt động (mint), 3) Đã phê duyệt hợp đồng staking, 4) Không vượt giới hạn."
+          },
+          {
+            "q": "Đã phê duyệt nhưng không stake được?",
+            "a": "Phê duyệt theo từng hợp đồng. Đảm bảo bạn đã phê duyệt địa chỉ hợp đồng staking, không phải hợp đồng NFT."
+          },
+          {
+            "q": "Ảnh NFT không tải được?",
+            "a": "NFT là SVG - một số ví/sàn cần thời gian render. Xem trực tiếp qua tokenURI() trên Etherscan."
+          },
+          {
+            "q": "Có thể rút stake ngay không?",
+            "a": "Có, bất cứ lúc nào. Không khóa, không phí. Vào tab STAKE, chọn NFT và nhấn RÚT STAKE."
+          }
+        ]
+      }
+    ]
+  },
+  "simulator": {
+    "generating": "Đang tạo NFT...",
+    "picked": "ĐÃ CHỌN",
+    "bgDark": "TỐI",
+    "bgLight": "SÁNG",
+    "bgGrid": "LƯỚI",
+    "randomBtn": "DUNK POGE NGẪU NHIÊN"
+  }
+}

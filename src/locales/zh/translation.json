@@ -1,0 +1,712 @@
+{
+  "common": {
+    "connectWallet": "连接钱包",
+    "disconnect": "断开连接",
+    "switchWallet": "切换钱包",
+    "connected": "已连接",
+    "installMetamask": "安装 MetaMask",
+    "walletNotConnected": "钱包未连接",
+    "wrongNetwork": "错误网络",
+    "processing": "处理中...",
+    "onChain": "FULLY ON-CHAIN"
+  },
+  "nav": {
+    "mint": "铸造",
+    "stake": "质押",
+    "rewards": "奖励",
+    "mythology": "神话"
+  },
+  "footer": {
+    "smartContracts": "智能合约",
+    "trustlessOnEthereum": "以太坊上的无信任协议",
+    "nftContract": "NFT 合约",
+    "pogeToken": "$POGE 代币",
+    "stakingContract": "质押合约",
+    "docs": "文档",
+    "faq": "常见问题",
+    "privacy": "隐私",
+    "github": "GITHUB"
+  },
+  "stakeAction": {
+    "stake": "🚀 质押 {{count}} 个 NFT",
+    "stake_plural": "🚀 质押 {{count}} 个 NFT",
+    "unstake": "🔙 取回 {{count}} 个 NFT",
+    "unstake_plural": "🔙 取回 {{count}} 个 NFT",
+    "unstakeAllFirst": "⚠️ 请先取回全部 ({{count}}) 个",
+    "revokeApproval": "撤销授权"
+  },
+  "controlBar": {
+    "staked": "已质押",
+    "idle": "空闲",
+    "selected": "已选择",
+    "sync": "同步",
+    "syncing": "同步中",
+    "approved": "已授权",
+    "notApproved": "未授权",
+    "revoke": "撤销",
+    "revoking": "撤销中...",
+    "approve": "授权",
+    "approving": "授权中...",
+    "emergency": "紧急",
+    "stakeAll": "🚀 质押全部 {{count}} 个 NFT",
+    "stakeAll_plural": "🚀 质押全部 {{count}} 个 NFT",
+    "approveToStakeAll": "🔒 请先授权再质押",
+    "unstakeAll": "📦 取回全部 {{count}} 个 NFT",
+    "unstakeAll_plural": "📦 取回全部 {{count}} 个 NFT",
+    "selectBelow": "或在下方选择特定 NFT 进行批量操作",
+    "emergencyTitle": "紧急取回",
+    "emergencyWarning": "这将立即取回全部 {{count}} 个 NFT。所有忠诚度倍数将清零，此操作不可撤销。",
+    "emergencyConfirm": "确认，全部取回",
+    "cancel": "取消",
+    "unstaking": "取回中..."
+  },
+  "actionBar": {
+    "selected": "已选择 {{count}} 个",
+    "readyToStake": "→ {{count}} 个待质押",
+    "readyToUnstake": "→ {{count}} 个待取回",
+    "approveFirst": "🔒 请先授权",
+    "stake": "🚀 质押 {{count}} 个",
+    "unstake": "📦 取回 {{count}} 个",
+    "clear": "清除",
+    "approving": "授权中...",
+    "staking": "质押中...",
+    "unstaking": "取回中...",
+    "estEarnings": "预计收益：~{{amount}} POGE/天"
+  },
+  "nftCard": {
+    "tabNFT": "NFT",
+    "tabTraits": "特征",
+    "tabStaking": "质押",
+    "noTraits": "无特征数据",
+    "multiplier": "倍数",
+    "days": "天数",
+    "daily": "每日",
+    "stakedSince": "质押于 {{date}}",
+    "idle": "空闲",
+    "notStaked": "未质押",
+    "selectToStake": "选择以质押",
+    "bgDark": "深色",
+    "bgLite": "浅色",
+    "bgGrid": "网格",
+    "perDay": "+{{amount}}/天"
+  },
+  "approvalBanner": {
+    "approvalNeeded": "需要授权才能质押",
+    "approveNow": "立即授权",
+    "approving": "授权中...",
+    "stakingApproved": "✅ 已授权质押",
+    "earning": "已质押",
+    "idle": "空闲",
+    "revokeApproval": "撤销授权",
+    "revoking": "撤销中...",
+    "viewRewards": "查看奖励"
+  },
+  "statusSummary": {
+    "readyToStake": "空闲",
+    "currentlyEarning": "已质押",
+    "selectedForAction": "已选择操作",
+    "selectNFTs": "在上方选择 NFT",
+    "readyToUnstake": "待取回",
+    "readyToStakeLabel": "待质押",
+    "estPerDay": "预计 {{amount}} POGE/天",
+    "earningPerDay": "赚取 {{amount}} POGE/天",
+    "nSelected": "已选 {{count}} 个"
+  },
+  "selectionControls": {
+    "title": "选择控制：",
+    "nOfTotal": "已选 {{count}} / {{total}} 个",
+    "selectN": "选择 {{count}} 个",
+    "clear": "清除",
+    "idle": "空闲",
+    "staked": "已质押",
+    "maxSelected": "ℹ️ 已达最大选择数 {{count}} 个（合约限制）"
+  },
+  "rewards": {
+    "title": "我的 $POGE 奖励",
+    "walletNotConnected": "钱包未连接",
+    "connectToView": "连接钱包以查看奖励",
+    "connectWallet": "连接钱包",
+    "claimRewards": "领取奖励",
+    "pendingRewards": "待领奖励",
+    "perSecond": "+{{amount}} POGE/秒",
+    "claiming": "领取中...",
+    "claimNow": "💰 立即领取",
+    "accumulating": "⏳ 奖励累积中...",
+    "liveFor": "已运行 {{time}}",
+    "startEarning": "🚀 立即开始赚取",
+    "claimedPoge": "已领取 POGE：",
+    "dailyReward": "每日奖励：",
+    "stakedNFTs": "质押 NFT：",
+    "stakedLabel": "{{staked}} 个已质押",
+    "inWallet": "{{count}} 个在钱包",
+    "manageStaking": "⚡ 管理质押",
+    "achievements": "成就",
+    "progress": "进度",
+    "unlocked": "✓ 已解锁",
+    "locked": "未解锁",
+    "totalOwned": "总持有：",
+    "peakStaked": "峰值质押：",
+    "lifetimeClaimed": "累计已领取：",
+    "startJourney": "🎯 开始你的旅程",
+    "startJourneyDesc": "通过质押 NFT 解锁成就",
+    "achievementsToUnlock": "💪 还有 {{count}} 个成就待解锁",
+    "keepGoing": "你正在赚取！继续质押以解锁成就",
+    "moreTogo": "🔥 还差 {{count}} 个",
+    "keepStaking": "继续质押以解锁更多成就",
+    "legendStatus": "🏆 传奇状态",
+    "legendDesc": "所有成就已解锁！",
+    "earlyAdopter": "早期采用者",
+    "earlyAdopterDesc": "前 100 名质押者",
+    "diamondPaws": "钻石爪",
+    "diamondPawsDesc": "质押 180 天",
+    "collector": "收藏家",
+    "collectorDesc": "10+ 个质押 7 天",
+    "pogeWhale": "POGE 鲸鱼",
+    "pogeWhaleDesc": "持有 10,000+ POGE",
+    "dataLoading": "⛓ 正在读取链上数据..."
+  },
+  "mythology": {
+    "title": "神话",
+    "aiSongs": "生成了数千首 AI 歌曲。",
+    "firstTry": "一首第一次就对了。",
+    "usedIt": "就用它了。",
+    "originTitle": "起源",
+    "origin1": "从带狗耳朵的朋克开始。",
+    "origin2": "AI 写了一首歌，把角色称为「她」。",
+    "origin3": "于是相应地修改了艺术风格。",
+    "origin4": "10,000 个朋克，永远链上。",
+    "technicalTitle": "技术",
+    "tech1": "单一不可变合约，以太坊链。",
+    "tech2": "SVG 而非 JPEG，无限分辨率。",
+    "tech3": "链上存储而非 IPFS，无服务器。",
+    "tech4": "20 亿种组合，永恒存在。",
+    "nft20": "NFT 2.0",
+    "songTitle": "这首歌",
+    "clickPlay": "点击播放开始",
+    "play": "播放",
+    "pause": "暂停",
+    "fiveVerses": "五个章节",
+    "verseConvergence": "汇聚",
+    "verseConvergenceDesc": "CryptoPunks 遇见 Doge，Dunk 被选中。",
+    "verseAwakening": "觉醒",
+    "verseAwakeningDesc": "逃脱决定论，财务稳健。",
+    "verseFreedom": "自由",
+    "verseFreedomDesc": "你相信什么？",
+    "verseRevelation": "启示",
+    "verseRevelationDesc": "旋转木马色的庞氏骗局。",
+    "verseCalling": "召唤",
+    "verseCallingDesc": "天生为此。",
+    "factsLine1": "20 亿种形态，10,000 个已铸造。",
+    "factsLine2": "免费模拟器，所有权与访问权分离。",
+    "factsLine3": "质押赚取 $POGE 奖励。",
+    "factsLine4": "SVG 链上存储，不可变合约。",
+    "factsQuote": "「生活就是一场旋转木马色的庞氏骗局」",
+    "forever": "DUNK POGE 永恒存在"
+  },
+  "docs": {
+    "title": "文档",
+    "subtitle": "无信任 NFT 生态系统",
+    "desc": "10,000 个完全链上的生成式 NFT，附带质押奖励",
+    "viewSource": "查看源代码",
+    "philosophy": "理念",
+    "architecture": "架构",
+    "security": "安全",
+    "philosophyTitle": "理念与原则",
+    "manifesto": "无信任宣言",
+    "manifestoTitle": "与无信任宣言的一致性",
+    "manifestoIntro": "Dunk Poge 体现了以下原则",
+    "noSecrets": "无关键秘密",
+    "noSecretsDesc": "NFT 生成使用公开的区块链数据，部署后无私钥控制用户资产。",
+    "principles": [
+      {
+        "title": "自主权",
+        "desc": "每位用户自行授权自己的操作，无人代为铸造、质押或领取。"
+      },
+      {
+        "title": "可验证性",
+        "desc": "所有 NFT 元数据以 SVG 形式存储于链上，任何人可从公开数据验证。"
+      },
+      {
+        "title": "抗审查性",
+        "desc": "无管理员可阻止取回质押或领取奖励。"
+      },
+      {
+        "title": "离场测试",
+        "desc": "即使团队消失，合约仍正常运行，NFT 永远属于你。"
+      },
+      {
+        "title": "可访问性",
+        "desc": "铸造价格（0.005 ETH）和链上存储让任何人都能参与。"
+      },
+      {
+        "title": "透明度",
+        "desc": "发行率、衰减曲线和倍数均为公开常量。"
+      }
+    ],
+    "archTitle": "系统架构",
+    "contractAddresses": "合约地址",
+    "view": "查看",
+    "contractGrid": [
+      {
+        "name": "DunkPoge NFT",
+        "type": "ERC721A",
+        "features": [
+          "10K 供应量",
+          "链上 SVG",
+          "批量铸造",
+          "5% 版税"
+        ]
+      },
+      {
+        "name": "Pogecoin (POGE)",
+        "type": "ERC20",
+        "features": [
+          "10 亿固定供应",
+          "无管理员",
+          "质押奖励",
+          "标准 ERC20"
+        ]
+      },
+      {
+        "name": "质押合约",
+        "type": "Vault",
+        "features": [
+          "不可变",
+          "衰减曲线",
+          "2x 倍数",
+          "成就系统"
+        ]
+      }
+    ],
+    "nftSpecTitle": "NFT 规格",
+    "keyParams": "关键参数",
+    "traitLayers": "特征层",
+    "params": [
+      {
+        "label": "最大供应量：",
+        "value": "10,000"
+      },
+      {
+        "label": "价格：",
+        "value": "0.005 ETH"
+      },
+      {
+        "label": "每钱包上限：",
+        "value": "10"
+      },
+      {
+        "label": "版税：",
+        "value": "5%"
+      },
+      {
+        "label": "组合数量：",
+        "value": "约 20 亿"
+      }
+    ],
+    "traits": [
+      "10 种肤色",
+      "7 种眼睛颜色",
+      "7 种嘴唇颜色",
+      "18 种发型（80% 有造型）",
+      "15 种发色",
+      "11 种眼镜款式（60% 有眼镜）",
+      "10 种头饰款式（60% 有头饰）",
+      "8 种饰品层 1（加权）",
+      "4 种饰品层 2（85% 无）",
+      "5 种饰品层 3（70% 无）"
+    ],
+    "rarityTitle": "涌现稀有度系统",
+    "rarityDesc": "稀有度由实际铸造分布决定。操纵系统会使目标特征更加常见，形成天然的防操控机制。",
+    "stakingTitle": "质押机制",
+    "emissionRates": "发行率",
+    "loyaltyMults": "忠诚度倍数",
+    "supplyPlanning": "供应规划",
+    "achievementsTitle": "成就",
+    "achievements": [
+      {
+        "name": "早期采用者",
+        "req": "在前 30 天内质押"
+      },
+      {
+        "name": "钻石爪",
+        "req": "持续质押 180 天以上"
+      },
+      {
+        "name": "收藏家",
+        "req": "在峰值时持有 10+ 个 NFT 质押超过 7 天"
+      },
+      {
+        "name": "POGE 鲸鱼",
+        "req": "累计赚取 10,000+ POGE"
+      }
+    ],
+    "securityTitle": "安全与无信任",
+    "guarantees": [
+      {
+        "title": "无外部依赖",
+        "desc": "NFT 元数据完全链上存储，无 IPFS、无 HTTP、无服务器依赖。"
+      },
+      {
+        "title": "用户控制",
+        "desc": "你的 NFT 随时可取回，奖励池耗尽时按比例支付，不会回滚。"
+      },
+      {
+        "title": "可验证性",
+        "desc": "任何人可从合约代码验证稀有度、待领奖励和发行率。"
+      },
+      {
+        "title": "抗审查性",
+        "desc": "无管理员可阻止取回质押或领取奖励。"
+      },
+      {
+        "title": "不可变性",
+        "desc": "质押合约无任何管理员功能，无法暂停或升级。"
+      },
+      {
+        "title": "紧急恢复",
+        "desc": "emergencyWithdraw() 始终归还 NFT，即使放弃奖励。"
+      }
+    ],
+    "auditedPatterns": "已审计模式",
+    "patterns": [
+      "所有状态变更函数均有 ReentrancyGuard",
+      "SafeERC20 防止静默转账失败",
+      "ERC721A 经过实战检验的批量铸造",
+      "检查-效果-交互模式",
+      "无外部调用（除 ERC20/721 外）",
+      "栈深度优化以节省 Gas"
+    ],
+    "techDeepDive": "技术深度解析",
+    "svgGenTitle": "链上 SVG 生成",
+    "svgWhyLabel": "为什么用 SVG？",
+    "svgReasons": [
+      "分辨率无关（可无限缩放）",
+      "比 base64 图像数据更小",
+      "浏览器原生支持",
+      "支持动态样式"
+    ],
+    "emissionMathTitle": "发行衰减数学",
+    "emissionFormula": "二次衰减公式：",
+    "emissionExample": "示例时间线：",
+    "emissionTimeline": [
+      "第 1 天：每个 NFT 约 10 POGE/天",
+      "第 180 天：约 6.25 POGE/天（1.5x 倍数 → 实际 9.375）",
+      "第 365 天：约 3.75 POGE/天（2x 倍数 → 实际 7.5）",
+      "第 730 天：约 1 POGE/天（2x 倍数 → 实际 2）"
+    ],
+    "integrationTitle": "集成指南",
+    "readOps": "读取操作（免费）",
+    "writeOps": "写入操作（消耗 Gas）",
+    "resourcesTitle": "资源",
+    "footerQuote": "「生活就是一场旋转木马色的庞氏骗局」",
+    "footerQuoteAttr": "— 歌曲，第四段",
+    "tagline": "极致文档 · 完全无信任 · 哇"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "headline": "我们不收集任何数据",
+    "subheadline": "这就是完整的隐私政策。",
+    "whyTitle": "为什么？",
+    "why1": "整个应用是一个静态前端，直接与以太坊智能合约交互。",
+    "why2": "字面意义上没有后端可以接收数据。",
+    "why3": "我们无法收集数据，架构本身就阻止了这一点。",
+    "dontKnowTitle": "我们不知道",
+    "dontKnow": [
+      "你是谁",
+      "你在哪里",
+      "你使用什么浏览器",
+      "你如何找到本站",
+      "你在这里做什么",
+      "你访问了多少次",
+      "你是否铸造或质押",
+      "关于你的任何事情"
+    ],
+    "publicTitle": "⚠️ 什么是公开的（区块链）",
+    "publicDesc": "当你与以太坊交互时，某些信息在区块链上公开可见：",
+    "publicItems": [
+      "你的钱包地址",
+      "交易历史",
+      "NFT 所有权",
+      "POGE 余额"
+    ],
+    "publicBut": "但这些数据：",
+    "publicButItems": [
+      "不由我们收集",
+      "不在我们的服务器上（我们没有服务器）",
+      "是伪匿名的",
+      "是你主动选择的（你发起了交易）"
+    ],
+    "verifyTitle": "如何验证",
+    "networkTab": "网络标签",
+    "networkDesc": "打开浏览器开发工具（F12）→ 网络",
+    "networkItem1": "对以太坊的 RPC 调用",
+    "networkItem2": "无分析调用",
+    "networkItem3": "无追踪像素",
+    "sourceCode": "源代码",
+    "sourceDesc": "所有代码在 GitHub 上开源",
+    "viewGithub": "在 GITHUB 查看 →",
+    "runLocally": "本地运行",
+    "runDesc": "克隆仓库，在你的机器上运行",
+    "cookiesTitle": "Cookie 与本地存储",
+    "cookiesUse": "我们仅将 localStorage 用于：",
+    "cookiesItems": [
+      "钱包连接偏好（可选）",
+      "缓存 RPC 响应（性能）"
+    ],
+    "cookiesNote": "此数据永不离开你的浏览器。可随时在浏览器设置中清除。",
+    "cookiesNo": "无：",
+    "cookiesNoItems": [
+      "追踪 Cookie",
+      "会话 Cookie",
+      "第三方 Cookie",
+      "分析 Cookie"
+    ],
+    "legalTitle": "法律合规",
+    "gdpr": "GDPR（欧洲）：",
+    "gdprDesc": "无数据 = 无合规负担，无需请求、导出或删除。",
+    "ccpa": "CCPA（加利福尼亚）：",
+    "ccpaDesc": "我们没有数据可出售、共享或删除。",
+    "otherLaws": "其他隐私法律：",
+    "otherLawsDesc": "法律规范数据收集，我们不收集任何数据。",
+    "contactTitle": "联系我们",
+    "contactNote": "说实话，没什么好讨论的，我们什么都不收集。",
+    "philTitle": "哲学思考",
+    "philHeadline": "隐私即主权",
+    "phil1": "如果你不应该信任我们管理你的资产（因此才有无信任智能合约），你也不应该被迫信任我们处理你的数据。",
+    "phil2": "这就是真正去中心化的样子：除非你在链上交易，否则我们甚至不知道你的存在。",
+    "phil3": "即便如此，我们也只知道某个钱包地址与智能合约交互，我们不知道那是你。",
+    "summaryTitle": "总结",
+    "summaryItems": [
+      "零数据收集",
+      "静态前端（无后端）",
+      "开源（自行验证）",
+      "无分析、Cookie 或追踪",
+      "区块链数据是公开的（以太坊固有特性）",
+      "你可以验证以上所有内容"
+    ],
+    "summaryClose": "就这些，这就是隐私政策。",
+    "tagline": "极致隐私 · 完全主权 · 哇"
+  },
+  "header": {
+    "minted": "{{count}} / 10,000 已铸造",
+    "left": "剩余 {{count}}",
+    "price": "{{price}} ETH",
+    "soldOutMinted": "10,000 / 10,000 已铸造",
+    "soldOut": "已售罄",
+    "buyOnOpensea": "在 OpenSea 购买"
+  },
+  "mint": {
+    "experienceArt": "体验艺术",
+    "mintYourDunk": "铸造你的 DUNK",
+    "walletLimitTitle": "🔒 钱包已达上限",
+    "walletLimitDesc": "此钱包已持有 {{count}} 个 NFT，每个钱包最多 10 个。",
+    "walletLimitHint": "请使用其他钱包铸造更多 Dunk Poge。",
+    "soldOutTitle": "🎉 已售罄",
+    "soldOutDesc": "全部 10,000 个 Dunk Poge NFT 已铸造完毕。请在二级市场查找：",
+    "saleNotStartedTitle": "⏳ 铸造未开始",
+    "saleNotStartedDesc": "铸造尚未开始，请稍后再来或关注我们的公告。",
+    "salePausedTitle": "⏸️ 铸造已暂停",
+    "salePausedDesc": "铸造暂时停止，已铸造 {{totalSupply}}/10,000 个。请稍后再来。",
+    "mintInfo": "铸造信息",
+    "statusLabel": "状态：",
+    "statusLive": "✓ 进行中",
+    "statusPaused": "✗ 已暂停",
+    "statusSoldOut": "🎉 已售罄",
+    "priceLabel": "价格：",
+    "mintedLabel": "已铸造：",
+    "youOwnLabel": "你持有：",
+    "canMintMore_one": "你还可以铸造 {{count}} 个 NFT",
+    "canMintMore_other": "你还可以铸造 {{count}} 个 NFT",
+    "quantityLabel": "数量（最多 {{max}}）：",
+    "totalLabel": "合计：{{total}} ETH",
+    "saleNotActive": "铸造未激活",
+    "mintButton_one": "铸造 {{count}} 个 NFT",
+    "mintButton_other": "铸造 {{count}} 个 NFT",
+    "walletFootnote": "每个钱包最多 10 个 NFT · 随机铸造",
+    "primarySaleComplete": "主售已结束",
+    "viewOnOpensea": "在 OpenSea 查看",
+    "walletLimitBadge": "钱包上限：{{count}}/10",
+    "useDifferentWallet": "请连接其他钱包铸造更多 Dunk Poge",
+    "forever": "DUNK POGE 永恒存在",
+    "badge": "完全链上 · 264 年",
+    "tagline": "极致永久 · 绝对不变 · 哇",
+    "connectToMint": "连接钱包以查看奖励",
+    "info": {
+      "i1t": "CryptoPunks 想成为的样子。",
+      "i1d": "全彩 SVG，无限分辨率，超过 20 亿种组合。",
+      "i2t": "质押长达 264 年。",
+      "i2d": "赚取 $POGE。每天 9 枚逐渐递减至 1 枚，早期质押者收益更高。",
+      "i3t": "艺术存于合约之中。",
+      "i3d": "无 IPFS，无服务器，无外部依赖——以太坊永存，NFT 永存。",
+      "i4t": "不可篡改的合约。",
+      "i4d": "无所有者，无管理员，无暂停——代码即法律。",
+      "i5t": "随机铸造。",
+      "i5d": "无法自选。供应量 10,000 个，0.005 ETH。",
+      "i6t": "免费艺术模拟器。",
+      "i6d": "无限下载。铸造才能拥有所有权。",
+      "i7t": "成就永久解锁。",
+      "i7d": "早期采用者。钻石爪。POGE 鲸鱼。",
+      "i8t": "前端静态存储于 Arweave。",
+      "i8d": "无后端，无数据库，无团队依赖。",
+      "i9t": "朋克精神，狗狗能量。",
+      "i9d": "CryptoPunks 与 Meme 文化在链上相遇。",
+      "i10t": "设计为超越一切而存在。",
+      "i10d": "你的曾孙仍然可以质押。"
+    }
+  },
+  "stake": {
+    "title": "质押你的 NFT",
+    "walletNotConnected": "钱包未连接",
+    "connectToView": "连接钱包以查看你的 NFT",
+    "connectWallet": "连接钱包",
+    "loadingTitle": "正在加载 NFT",
+    "loadingProgress": "已加载 {{loaded}} / {{total}}",
+    "fetchingFromChain": "正在从区块链获取数据...",
+    "noNFTsTitle": "未找到 NFT",
+    "noNFTsDesc": "你还没有任何 Dunk Poge NFT",
+    "goToMint": "前往铸造页面",
+    "batchProcessing": "正在处理第 {{current}}/{{total}} 批次",
+    "confirmInWallet": "请在钱包中确认每笔交易"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "常见问题解答",
+    "desc": "关于铸造、质押和奖励的常见问题快速解答",
+    "stats": {
+      "supply_label": "供应量",
+      "supply_value": "10,000",
+      "price_label": "价格",
+      "price_value": "0.005 ETH",
+      "maxMult_label": "最高倍数",
+      "maxMult_value": "2.0x",
+      "noLock_label": "无锁仓",
+      "noLock_value": "随时可取"
+    },
+    "stillHaveQuestions": "还有问题？",
+    "joinCommunity": "加入我们的社区获取支持和更新",
+    "tagline": "极致帮助 · 清晰明了 · 哇",
+    "categories": [
+      {
+        "category": "铸造",
+        "questions": [
+          {
+            "q": "如何铸造 Dunk Poge NFT？",
+            "a": "连接钱包，进入铸造页面，选择数量（1-10），点击立即铸造。每个 NFT 费用 0.002 ETH。NFT 特征在铸造时于链上生成。"
+          },
+          {
+            "q": "我可以铸造多少个？",
+            "a": "公开发售期间每个钱包最多铸造 10 个 NFT，总供应量固定为 10,000 个。"
+          },
+          {
+            "q": "铸造何时开始？",
+            "a": "请查看铸造页面上的销售状态。显示「销售进行中」时即可铸造。"
+          },
+          {
+            "q": "我可以选择特征吗？",
+            "a": "不可以。特征由链上区块链数据（区块哈希、时间戳等）随机生成，确保公平且防止操控。"
+          }
+        ]
+      },
+      {
+        "category": "质押",
+        "questions": [
+          {
+            "q": "如何质押我的 NFT？",
+            "a": "1. 进入质押页面。2. 授权质押合约（仅需一次）。3. 选择要质押的 NFT。4. 点击质押。你的 NFT 将转入质押合约并立即开始赚取 POGE。"
+          },
+          {
+            "q": "何时收到奖励？",
+            "a": "奖励每秒根据发行率累积。你可以随时领取，或在取回质押时自动领取。无最短等待时间。"
+          },
+          {
+            "q": "质押会失去 NFT 吗？",
+            "a": "不会。你可以随时取消质押，无任何惩罚。如需紧急提款可使用 emergencyWithdraw()（放弃奖励但立即归还 NFT）。"
+          },
+          {
+            "q": "什么是忠诚度倍数？",
+            "a": "质押时间越长，收益越高。倍数在 180 天内从 1x 增长至 2x。例如：第 1 天=1x，第 90 天=1.5x，第 180 天以上=最高 2x。"
+          },
+          {
+            "q": "领取奖励会重置倍数吗？",
+            "a": "不会！倍数基于质押时长而非领取频率。领取奖励不会重置忠诚度进度。"
+          }
+        ]
+      },
+      {
+        "category": "奖励与代币经济",
+        "questions": [
+          {
+            "q": "我能赚多少 POGE？",
+            "a": "基础速率每个 NFT 每天约 10 POGE 起，在 730 天内衰减至约 1 POGE/天。使用 2x 倍数，初始最高可赚 20 POGE/天，逐渐降至 2 POGE/天。"
+          },
+          {
+            "q": "POGE 有什么用途？",
+            "a": "POGE 是生态系统代币。未来用途待定，目前用于质押奖励。固定供应量为 10 亿枚。"
+          },
+          {
+            "q": "奖励池耗尽会怎样？",
+            "a": "合约会优雅处理低余额情况，支付可用金额并发出透明事件通知。5 亿 POGE 分配给质押，提供 27.6% 的安全缓冲。"
+          },
+          {
+            "q": "奖励可以之后增加吗？",
+            "a": "不可以。质押合约是不可变的，没有管理员功能。发行率固定在代码中，无法更改。"
+          }
+        ]
+      },
+      {
+        "category": "技术与安全",
+        "questions": [
+          {
+            "q": "合约是否经过审计？",
+            "a": "未经审计。合约使用经过验证的模式：ERC721A、ReentrancyGuard、SafeERC20 和检查-效果-交互模式。代码在 Etherscan 和 GitHub 上开源供社区审查。"
+          },
+          {
+            "q": "团队会跑路吗？",
+            "a": "不会。质押合约没有任何管理员功能——无暂停、无升级、无提款。NFT 合约所有者只能切换销售状态和提取铸造资金。无论是否质押，你的 NFT 始终是你的。"
+          },
+          {
+            "q": "网站下线会怎样？",
+            "a": "一切无需网站即可运行。直接通过 Etherscan 与合约交互。NFT 元数据完全链上存储，不依赖 IPFS 或服务器。"
+          },
+          {
+            "q": "元数据存储在哪里？",
+            "a": "完全链上。SVG 和逻辑都嵌入合约中。无 IPFS、无服务器、无外部依赖。你的 NFT 与以太坊共存亡。"
+          },
+          {
+            "q": "NFT 可以被审查或冻结吗？",
+            "a": "不可以。标准 ERC721，无黑名单或销毁功能。铸造后，NFT 可自由转让、质押或出售。"
+          }
+        ]
+      },
+      {
+        "category": "故障排除",
+        "questions": [
+          {
+            "q": "交易失败怎么办？",
+            "a": "检查：1) ETH 是否足够支付 gas 费，2) 铸造时销售是否进行中，3) 质押时是否已授权合约，4) 是否超过限制。如有必要，尝试增加 gas 限额。"
+          },
+          {
+            "q": "已授权但无法质押？",
+            "a": "授权是针对特定合约的。请确保你授权的是质押页面显示的质押合约地址，而非 NFT 合约。"
+          },
+          {
+            "q": "NFT 图片无法加载？",
+            "a": "NFT 是 SVG 格式——部分钱包/市场可能需要时间渲染。你可以直接通过 Etherscan 上的合约 tokenURI() 查看。"
+          },
+          {
+            "q": "可以立即取消质押吗？",
+            "a": "可以，随时可以。无锁定期，无费用。前往质押页面，选择你的 NFT，点击取回质押。奖励会自动领取。"
+          }
+        ]
+      }
+    ]
+  },
+  "simulator": {
+    "generating": "正在生成 NFT...",
+    "picked": "已选",
+    "bgDark": "深色",
+    "bgLight": "浅色",
+    "bgGrid": "网格",
+    "randomBtn": "随机 DUNK POGE"
+  }
+}
