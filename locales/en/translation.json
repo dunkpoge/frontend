@@ -1,0 +1,685 @@
+{
+  "common": {
+    "connectWallet": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "switchWallet": "Switch Wallet",
+    "connected": "Connected",
+    "installMetamask": "Install MetaMask",
+    "walletNotConnected": "Wallet Not Connected",
+    "wrongNetwork": "Wrong Network",
+    "processing": "Processing...",
+    "onChain": "FULLY ON-CHAIN"
+  },
+  "nav": {
+    "mint": "Mint",
+    "stake": "Stake",
+    "rewards": "Rewards",
+    "mythology": "Mythology"
+  },
+  "footer": {
+    "smartContracts": "Smart Contracts",
+    "trustlessOnEthereum": "Trustless on Ethereum",
+    "nftContract": "NFT Contract",
+    "pogeToken": "$POGE Token",
+    "stakingContract": "Staking Contract",
+    "docs": "Docs",
+    "faq": "FAQ",
+    "privacy": "Privacy",
+    "github": "GITHUB"
+  },
+  "stakeAction": {
+    "stake": "🚀 Stake {{count}} NFT",
+    "stake_plural": "🚀 Stake {{count}} NFTs",
+    "unstake": "🔙 Unstake {{count}} NFT",
+    "unstake_plural": "🔙 Unstake {{count}} NFTs",
+    "unstakeAllFirst": "⚠️ Unstake All ({{count}}) First",
+    "revokeApproval": "Revoke Approval"
+  },
+  "controlBar": {
+    "staked": "Staked",
+    "idle": "Idle",
+    "selected": "Selected",
+    "sync": "Sync",
+    "syncing": "Syncing",
+    "approved": "Approved",
+    "notApproved": "Not Approved",
+    "revoke": "Revoke",
+    "revoking": "Revoking...",
+    "approve": "Approve",
+    "approving": "Approving...",
+    "emergency": "Emergency",
+    "stakeAll": "🚀 Stake All {{count}} NFT",
+    "stakeAll_plural": "🚀 Stake All {{count}} NFTs",
+    "approveToStakeAll": "🔒 Approve First to Stake All",
+    "unstakeAll": "📦 Unstake All {{count}} NFT",
+    "unstakeAll_plural": "📦 Unstake All {{count}} NFTs",
+    "selectBelow": "Or select specific NFTs below for batch actions",
+    "emergencyTitle": "Emergency Withdraw",
+    "emergencyWarning": "This will immediately return all {{count}} NFTs. All loyalty multipliers will be reset. This cannot be undone.",
+    "emergencyConfirm": "Confirm, Withdraw All",
+    "cancel": "Cancel",
+    "unstaking": "Unstaking..."
+  },
+  "actionBar": {
+    "selected": "{{count}} Selected",
+    "readyToStake": "→ {{count}} ready to stake",
+    "readyToUnstake": "→ {{count}} ready to unstake",
+    "approveFirst": "🔒 Approve First",
+    "stake": "🚀 Stake {{count}}",
+    "unstake": "📦 Unstake {{count}}",
+    "clear": "Clear",
+    "approving": "Approving...",
+    "staking": "Staking...",
+    "unstaking": "Unstaking...",
+    "estEarnings": "Est. earnings: ~{{amount}} POGE/day"
+  },
+  "nftCard": {
+    "tabNFT": "NFT",
+    "tabTraits": "Traits",
+    "tabStaking": "Staking",
+    "noTraits": "No trait data",
+    "multiplier": "Multiplier",
+    "days": "Days",
+    "daily": "Daily",
+    "stakedSince": "Staked {{date}}",
+    "idle": "Idle",
+    "notStaked": "Not Staked",
+    "selectToStake": "Select to stake",
+    "bgDark": "Dark",
+    "bgLite": "Lite",
+    "bgGrid": "Grid",
+    "perDay": "+{{amount}}/day"
+  },
+  "approvalBanner": {
+    "approvalNeeded": "Approval needed to stake",
+    "approveNow": "Approve Now",
+    "approving": "Approving...",
+    "stakingApproved": "✅ Staking Approved",
+    "earning": "Staked",
+    "idle": "Idle",
+    "revokeApproval": "Revoke Approval",
+    "revoking": "Revoking...",
+    "viewRewards": "View Rewards"
+  },
+  "statusSummary": {
+    "readyToStake": "Idle",
+    "currentlyEarning": "Staked",
+    "selectedForAction": "Selected for Action",
+    "selectNFTs": "Select NFTs Above",
+    "readyToUnstake": "Ready to Unstake",
+    "readyToStakeLabel": "Ready to Stake",
+    "estPerDay": "Est. {{amount}} POGE/day",
+    "earningPerDay": "Earning {{amount}} POGE/day",
+    "nSelected": "{{count}} Selected"
+  },
+  "selectionControls": {
+    "title": "Selection Controls:",
+    "nOfTotal": "{{count}} / {{total}} selected",
+    "selectN": "Select {{count}}",
+    "clear": "Clear",
+    "idle": "Idle",
+    "staked": "Staked",
+    "maxSelected": "ℹ️ Max {{count}} selected (contract limit)"
+  },
+  "rewards": {
+    "title": "My $POGE Rewards",
+    "walletNotConnected": "Wallet Not Connected",
+    "connectToView": "Connect your wallet to view rewards",
+    "connectWallet": "Connect Wallet",
+    "claimRewards": "Claim Rewards",
+    "pendingRewards": "Pending Rewards",
+    "perSecond": "+{{amount}} POGE/sec",
+    "claiming": "Claiming...",
+    "claimNow": "💰 Claim Now",
+    "accumulating": "⏳ Rewards accumulating...",
+    "liveFor": "Live for {{time}}",
+    "startEarning": "🚀 Start Earning Now",
+    "claimedPoge": "Claimed POGE:",
+    "dailyReward": "Daily Reward:",
+    "stakedNFTs": "Staked NFTs:",
+    "stakedLabel": "{{staked}} staked",
+    "inWallet": "{{count}} in wallet",
+    "manageStaking": "⚡ Manage Staking",
+    "achievements": "Achievements",
+    "progress": "Progress",
+    "unlocked": "✓ Unlocked",
+    "locked": "Locked",
+    "totalOwned": "Total Owned:",
+    "peakStaked": "Peak Staked:",
+    "lifetimeClaimed": "Lifetime Claimed:",
+    "startJourney": "🎯 Start Your Journey",
+    "startJourneyDesc": "Stake your NFTs to unlock achievements",
+    "achievementsToUnlock": "💪 {{count}} achievements left to unlock",
+    "keepGoing": "You're earning! Keep staking to unlock achievements",
+    "moreTogo": "🔥 {{count}} more to go",
+    "keepStaking": "Keep staking to unlock more achievements",
+    "legendStatus": "🏆 Legend Status",
+    "legendDesc": "All achievements unlocked!",
+    "earlyAdopter": "Early Adopter",
+    "earlyAdopterDesc": "First 100 stakers",
+    "diamondPaws": "Diamond Paws",
+    "diamondPawsDesc": "Stake for 180 days",
+    "collector": "Collector",
+    "collectorDesc": "10+ staked for 7 days",
+    "pogeWhale": "Poge Whale",
+    "pogeWhaleDesc": "Hold 10,000+ POGE",
+    "dataLoading": "⛓ Reading on-chain data..."
+  },
+  "mythology": {
+    "title": "Mythology",
+    "aiSongs": "Thousands of AI songs generated.",
+    "firstTry": "One got it right on the first try.",
+    "usedIt": "Used it.",
+    "originTitle": "Origin",
+    "origin1": "Started with a punk that had dog ears.",
+    "origin2": "AI wrote a song and called the character 'she'.",
+    "origin3": "Updated the art accordingly.",
+    "origin4": "10,000 punks. On-chain forever.",
+    "technicalTitle": "Technical",
+    "tech1": "Single immutable contract. Ethereum.",
+    "tech2": "SVG not JPEG. Infinite resolution.",
+    "tech3": "On-chain not IPFS. No servers.",
+    "tech4": "2 billion combinations. Forever.",
+    "nft20": "NFT 2.0",
+    "songTitle": "The Song",
+    "clickPlay": "Click play to begin",
+    "play": "Play",
+    "pause": "Pause",
+    "fiveVerses": "Five Verses",
+    "verseConvergence": "Convergence",
+    "verseConvergenceDesc": "CryptoPunks meets Doge. Dunk is chosen.",
+    "verseAwakening": "Awakening",
+    "verseAwakeningDesc": "Escape determinism. Financial soundness.",
+    "verseFreedom": "Freedom",
+    "verseFreedomDesc": "What do you believe in?",
+    "verseRevelation": "Revelation",
+    "verseRevelationDesc": "Carousel-colored Ponzi scheme.",
+    "verseCalling": "The Calling",
+    "verseCallingDesc": "Born for this.",
+    "factsLine1": "2 billion forms. 10,000 minted.",
+    "factsLine2": "Free simulator. Ownership separate from access.",
+    "factsLine3": "Stake to earn $POGE rewards.",
+    "factsLine4": "SVG on-chain. Immutable contracts.",
+    "factsQuote": "\"Life's a whole carousel-colored Ponzi scheme\"",
+    "forever": "DUNK POGE FOREVER"
+  },
+  "docs": {
+    "title": "Documentation",
+    "subtitle": "Trustless NFT Ecosystem",
+    "desc": "10,000 fully on-chain generative NFTs with staking rewards",
+    "viewSource": "View Source",
+    "philosophy": "Philosophy",
+    "architecture": "Architecture",
+    "security": "Security",
+    "philosophyTitle": "Philosophy & Design Principles",
+    "manifesto": "The Trustless Manifesto",
+    "manifestoTitle": "ALIGNMENT WITH THE TRUSTLESS MANIFESTO",
+    "manifestoIntro": "Dunk Poge embodies the principles outlined in",
+    "noSecrets": "No Critical Secrets",
+    "noSecretsDesc": "NFT generation uses public blockchain data. No private keys control user assets after deployment.",
+    "principles": [
+      {
+        "title": "Self-Sovereignty",
+        "desc": "Every user authorizes their own actions. No one mints, stakes, or claims on your behalf."
+      },
+      {
+        "title": "Verifiability",
+        "desc": "All NFT metadata lives on-chain as SVG. Anyone can verify what happened from public data."
+      },
+      {
+        "title": "Censorship Resistance",
+        "desc": "No admin can prevent unstaking or claiming rewards."
+      },
+      {
+        "title": "Walkaway Test",
+        "desc": "If the team disappears, the contracts continue functioning. NFTs remain yours forever."
+      },
+      {
+        "title": "Accessibility",
+        "desc": "Mint price (0.005 ETH) and on-chain storage mean anyone can participate without servers or infrastructure."
+      },
+      {
+        "title": "Transparency",
+        "desc": "Emission rates, decay curves, and multipliers are public constants. No hidden mechanics."
+      }
+    ],
+    "archTitle": "System Architecture",
+    "contractAddresses": "Contract Addresses",
+    "view": "View",
+    "contractGrid": [
+      {
+        "name": "DunkPoge NFT",
+        "type": "ERC721A",
+        "features": [
+          "10K Supply",
+          "On-chain SVG",
+          "Batch Minting",
+          "5% Royalty"
+        ]
+      },
+      {
+        "name": "Pogecoin (POGE)",
+        "type": "ERC20",
+        "features": [
+          "1B Fixed Supply",
+          "No Admin",
+          "Staking Rewards",
+          "Standard ERC20"
+        ]
+      },
+      {
+        "name": "Staking Contract",
+        "type": "Vault",
+        "features": [
+          "Immutable",
+          "Decay Curve",
+          "2x Multiplier",
+          "Achievements"
+        ]
+      }
+    ],
+    "nftSpecTitle": "NFT Specifications",
+    "keyParams": "Key Parameters",
+    "traitLayers": "Trait Layers",
+    "params": [
+      { "label": "Max Supply:", "value": "10,000" },
+      { "label": "Price:", "value": "0.005 ETH" },
+      { "label": "Max Per Wallet:", "value": "10" },
+      { "label": "Royalty:", "value": "5%" },
+      { "label": "Combinations:", "value": "~2 Billion" }
+    ],
+    "traits": [
+      "10 skin tones",
+      "7 eye colors",
+      "7 lip colors",
+      "18 hairstyles (80% styled)",
+      "15 hair colors",
+      "11 eyewear styles (60% styled)",
+      "10 headwear styles (60% styled)",
+      "8 accessory layer 1 options (weighted)",
+      "4 accessory layer 2 options (85% none)",
+      "5 accessory layer 3 options (70% none)"
+    ],
+    "rarityTitle": "Emergent Rarity System",
+    "rarityDesc": "Actual rarity emerges from mint distribution. Attempting to game specific traits makes them more common, not rarer.",
+    "stakingTitle": "Staking Mechanics",
+    "emissionRates": "Emission Rates",
+    "loyaltyMults": "Loyalty Multipliers",
+    "supplyPlanning": "Supply Planning",
+    "achievementsTitle": "Achievements",
+    "achievements": [
+      { "name": "Early Adopter", "req": "Stake within the first 30 days" },
+      { "name": "Diamond Paws", "req": "Stake continuously for 180+ days" },
+      { "name": "Collector", "req": "Hold 10+ NFTs staked for 7+ days at peak" },
+      { "name": "Poge Whale", "req": "Earn 10,000+ POGE total" }
+    ],
+    "securityTitle": "Security & Trustlessness",
+    "guarantees": [
+      {
+        "title": "No External Dependencies",
+        "desc": "NFT metadata is entirely on-chain. No IPFS, no HTTP endpoints, no server dependencies."
+      },
+      {
+        "title": "User Control",
+        "desc": "Your NFTs are always withdrawable. Pool depletion results in partial payment, not reverts."
+      },
+      {
+        "title": "Verifiability",
+        "desc": "Anyone can verify rarity, pending rewards, and emission rates directly from contract code."
+      },
+      {
+        "title": "Censorship Resistance",
+        "desc": "No admin can prevent unstaking or claiming rewards."
+      },
+      {
+        "title": "Immutability",
+        "desc": "DunkPogeStaking has zero admin functions. Cannot be paused, upgraded, or modified."
+      },
+      {
+        "title": "Emergency Recovery",
+        "desc": "emergencyWithdraw() always returns NFTs, even if rewards are forfeited."
+      }
+    ],
+    "auditedPatterns": "Audited Patterns",
+    "patterns": [
+      "ReentrancyGuard on all state-changing functions",
+      "SafeERC20 prevents silent transfer failures",
+      "ERC721A battle-tested batch minting",
+      "Checks-Effects-Interactions pattern",
+      "No external calls (except ERC20/721 transfers)",
+      "Stack depth optimized for gas savings"
+    ],
+    "techDeepDive": "Technical Deep Dive",
+    "svgGenTitle": "On-Chain SVG Generation",
+    "svgWhyLabel": "Why SVG?",
+    "svgReasons": [
+      "Resolution-independent (scale infinitely)",
+      "Smaller than base64 image data",
+      "Native browser support",
+      "Allows dynamic styling"
+    ],
+    "emissionMathTitle": "Emission Decay Mathematics",
+    "emissionFormula": "Quadratic decay formula:",
+    "emissionExample": "Example timeline:",
+    "emissionTimeline": [
+      "Day 1: ~10 POGE/day per NFT",
+      "Day 180: ~6.25 POGE/day (with 1.5x multiplier → 9.375 effective)",
+      "Day 365: ~3.75 POGE/day (with 2x multiplier → 7.5 effective)",
+      "Day 730: ~1 POGE/day (with 2x multiplier → 2 effective)"
+    ],
+    "integrationTitle": "Integration Guide",
+    "readOps": "Read Operations (free)",
+    "writeOps": "Write Operations (gas required)",
+    "resourcesTitle": "Resources",
+    "footerQuote": "\"Life's a whole carousel-colored Ponzi scheme\"",
+    "footerQuoteAttr": "— The Song, Verse IV",
+    "tagline": "Much documentation • Very trustless • Wow"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "headline": "We Collect Nothing",
+    "subheadline": "That's the entire privacy policy.",
+    "whyTitle": "Why?",
+    "why1": "The entire application is a static frontend that interacts directly with Ethereum smart contracts.",
+    "why2": "There is literally no backend to send data to.",
+    "why3": "We architecturally cannot collect data.",
+    "dontKnowTitle": "We Don't Know",
+    "dontKnow": [
+      "Who you are",
+      "Where you're located",
+      "What browser you use",
+      "How you found this site",
+      "What you do here",
+      "How many times you've visited",
+      "Whether you've minted or staked",
+      "Literally anything about you"
+    ],
+    "publicTitle": "⚠️ What IS Public (Blockchain)",
+    "publicDesc": "When you interact with Ethereum, some information is publicly visible on-chain:",
+    "publicItems": [
+      "Your wallet address",
+      "Transaction history",
+      "NFT ownership",
+      "POGE balance"
+    ],
+    "publicBut": "But this data:",
+    "publicButItems": [
+      "Is not collected by us",
+      "Is not on our servers (we have no servers)",
+      "Is pseudonymous",
+      "Was your choice to create (you initiated the transactions)"
+    ],
+    "verifyTitle": "How to Verify",
+    "networkTab": "Network Tab",
+    "networkDesc": "Open browser devtools (F12) → Network",
+    "networkItem1": "RPC calls to Ethereum",
+    "networkItem2": "No analytics calls",
+    "networkItem3": "No tracking pixels",
+    "sourceCode": "Source Code",
+    "sourceDesc": "All code is open source on GitHub",
+    "viewGithub": "VIEW ON GITHUB →",
+    "runLocally": "Run Locally",
+    "runDesc": "Clone the repo and run it on your own machine",
+    "cookiesTitle": "Cookies & Local Storage",
+    "cookiesUse": "We only use localStorage for:",
+    "cookiesItems": [
+      "Wallet connection preference (optional)",
+      "Cached RPC responses (performance)"
+    ],
+    "cookiesNote": "This data never leaves your browser. Clear it anytime in browser settings.",
+    "cookiesNo": "No:",
+    "cookiesNoItems": [
+      "Tracking cookies",
+      "Session cookies",
+      "Third-party cookies",
+      "Analytics cookies"
+    ],
+    "legalTitle": "Legal Compliance",
+    "gdpr": "GDPR (Europe):",
+    "gdprDesc": "No data = no compliance burden. No requests to handle, no exports, no deletions.",
+    "ccpa": "CCPA (California):",
+    "ccpaDesc": "We have no data to sell, share, or delete.",
+    "otherLaws": "Other Privacy Laws:",
+    "otherLawsDesc": "Laws regulate data collection. We don't collect any.",
+    "contactTitle": "Contact",
+    "contactNote": "Honestly, there's nothing to discuss. We don't collect anything.",
+    "philTitle": "Philosophy",
+    "philHeadline": "Privacy is Sovereignty",
+    "phil1": "If you shouldn't have to trust us with your assets (hence the trustless smart contracts), you shouldn't have to trust us with your data either.",
+    "phil2": "This is what true decentralization looks like: we don't even know you exist unless you transact on-chain.",
+    "phil3": "Even then, we only know that some wallet address interacted with a smart contract. We don't know that's you.",
+    "summaryTitle": "Summary",
+    "summaryItems": [
+      "Zero data collection",
+      "Static frontend (no backend)",
+      "Open source (verify yourself)",
+      "No analytics, cookies, or tracking",
+      "Blockchain data is public (inherent to Ethereum)",
+      "You can verify all of the above"
+    ],
+    "summaryClose": "That's it. That's the privacy policy.",
+    "tagline": "Much privacy • Very sovereign • Wow"
+  },
+  "header": {
+    "minted": "{{count}} / 10,000 Minted",
+    "left": "{{count}} Left",
+    "price": "{{price}} ETH",
+    "soldOutMinted": "10,000 / 10,000 Minted",
+    "soldOut": "SOLD OUT",
+    "buyOnOpensea": "Buy on OpenSea"
+  },
+  "mint": {
+    "experienceArt": "Experience the Art",
+    "mintYourDunk": "Mint Your Dunk",
+    "walletLimitTitle": "🔒 Wallet Limit Reached",
+    "walletLimitDesc": "This wallet already holds {{count}} NFTs. Max 10 per wallet.",
+    "walletLimitHint": "Use a different wallet to mint more Dunk Poge.",
+    "soldOutTitle": "🎉 Sold Out",
+    "soldOutDesc": "All 10,000 Dunk Poge NFTs have been minted. Find them on secondary markets:",
+    "saleNotStartedTitle": "⏳ Sale Not Started",
+    "saleNotStartedDesc": "Minting hasn't started yet. Check back soon or follow our announcements.",
+    "salePausedTitle": "⏸️ Sale Paused",
+    "salePausedDesc": "Minting is temporarily paused at {{totalSupply}}/10,000. Check back soon.",
+    "mintInfo": "Mint Info",
+    "statusLabel": "Status:",
+    "statusLive": "✓ Live",
+    "statusPaused": "✗ Paused",
+    "statusSoldOut": "🎉 Sold Out",
+    "priceLabel": "Price:",
+    "mintedLabel": "Minted:",
+    "youOwnLabel": "You Own:",
+    "canMintMore_one": "You can mint {{count}} more NFT",
+    "canMintMore_other": "You can mint {{count}} more NFTs",
+    "quantityLabel": "Quantity (max {{max}}):",
+    "totalLabel": "Total: {{total}} ETH",
+    "saleNotActive": "Sale Not Active",
+    "mintButton_one": "Mint {{count}} NFT",
+    "mintButton_other": "Mint {{count}} NFTs",
+    "walletFootnote": "Max 10 NFTs per wallet · Randomly generated",
+    "primarySaleComplete": "Primary Sale Complete",
+    "viewOnOpensea": "View on OpenSea",
+    "walletLimitBadge": "Wallet limit: {{count}}/10",
+    "useDifferentWallet": "Connect a different wallet to mint more Dunk Poge",
+    "forever": "DUNK POGE FOREVER",
+    "badge": "FULLY ON-CHAIN · 264 YEARS",
+    "tagline": "Much permanent • Very immutable • Wow",
+    "connectToMint": "Connect wallet to view rewards",
+    "info": {
+      "i1t": "What CryptoPunks wanted to be.",
+      "i1d": "Full-color SVG. Infinite resolution. Over 2 billion combinations.",
+      "i2t": "Stake for 264 years.",
+      "i2d": "Earn $POGE. 9 tokens/day decaying to 1. Early stakers earn more.",
+      "i3t": "Art lives in the contract.",
+      "i3d": "No IPFS. No servers. No external dependencies — Ethereum lives, NFT lives.",
+      "i4t": "Immutable contracts.",
+      "i4d": "No owner. No admin. No pause — code is law.",
+      "i5t": "Random mint.",
+      "i5d": "Can't pick traits. 10,000 supply. 0.005 ETH.",
+      "i6t": "Free art simulator.",
+      "i6d": "Unlimited downloads. Minting gets you ownership.",
+      "i7t": "Achievements unlocked forever.",
+      "i7d": "Early Adopter. Diamond Paws. Poge Whale.",
+      "i8t": "Frontend stored on Arweave.",
+      "i8d": "No backend. No database. No team dependency.",
+      "i9t": "Punk spirit. Doge energy.",
+      "i9d": "CryptoPunks meets meme culture on-chain.",
+      "i10t": "Designed to outlast everything.",
+      "i10d": "Your great-grandchildren can still stake."
+    }
+  },
+  "stake": {
+    "title": "Stake Your NFTs",
+    "walletNotConnected": "Wallet Not Connected",
+    "connectToView": "Connect your wallet to view your NFTs",
+    "connectWallet": "Connect Wallet",
+    "loadingTitle": "Loading NFTs",
+    "loadingProgress": "Loaded {{loaded}} / {{total}}",
+    "fetchingFromChain": "Fetching from blockchain...",
+    "noNFTsTitle": "No NFTs Found",
+    "noNFTsDesc": "You don't have any Dunk Poge NFTs yet",
+    "goToMint": "Go to Mint",
+    "batchProcessing": "Processing batch {{current}} of {{total}}",
+    "confirmInWallet": "Please confirm each transaction in your wallet"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked Questions",
+    "desc": "Quick answers to common questions about minting, staking, and rewards",
+    "stats": {
+      "supply_label": "Supply",
+      "supply_value": "10,000",
+      "price_label": "Price",
+      "price_value": "0.005 ETH",
+      "maxMult_label": "Max Multiplier",
+      "maxMult_value": "2.0x",
+      "noLock_label": "No Lock-in",
+      "noLock_value": "Withdraw Anytime"
+    },
+    "stillHaveQuestions": "Still have questions?",
+    "joinCommunity": "Join our community for support and updates",
+    "tagline": "Much helpful • Very clear • Wow",
+    "categories": [
+      {
+        "category": "Minting",
+        "questions": [
+          {
+            "q": "How do I mint a Dunk Poge NFT?",
+            "a": "Connect your wallet, go to the Mint page, select a quantity (1-10), and click Mint Now. Each NFT costs 0.005 ETH. Traits are generated on-chain at mint time."
+          },
+          {
+            "q": "How many can I mint?",
+            "a": "Maximum 10 NFTs per wallet during public sale. Total supply is fixed at 10,000."
+          },
+          {
+            "q": "When does minting start?",
+            "a": "Check the sale status on the Mint page. When it shows 'Sale Live' you can mint."
+          },
+          {
+            "q": "Can I choose my traits?",
+            "a": "No. Traits are randomly generated from on-chain blockchain data (block hash, timestamp, etc.), ensuring fairness and preventing manipulation."
+          }
+        ]
+      },
+      {
+        "category": "Staking",
+        "questions": [
+          {
+            "q": "How do I stake my NFTs?",
+            "a": "1. Go to the Stake page. 2. Approve the staking contract (one-time). 3. Select the NFTs you want to stake. 4. Click Stake. Your NFTs transfer to the staking contract and immediately begin earning POGE."
+          },
+          {
+            "q": "When do I get rewards?",
+            "a": "Rewards accumulate every second based on the emission rate. You can claim at any time, or they're automatically sent when you unstake. No minimum waiting period."
+          },
+          {
+            "q": "Do I lose my NFTs when staking?",
+            "a": "No. You can unstake at any time with no penalty. Use emergencyWithdraw() for instant return (forfeits rewards but immediately returns NFTs)."
+          },
+          {
+            "q": "What is the loyalty multiplier?",
+            "a": "The longer you stake, the more you earn. Multiplier grows from 1x to 2x over 180 days. Example: Day 1 = 1x, Day 90 = 1.5x, Day 180+ = max 2x."
+          },
+          {
+            "q": "Does claiming rewards reset my multiplier?",
+            "a": "No! The multiplier is based on stake duration, not claim frequency. Claiming rewards does not reset your loyalty progress."
+          }
+        ]
+      },
+      {
+        "category": "Rewards & Tokenomics",
+        "questions": [
+          {
+            "q": "How much POGE can I earn?",
+            "a": "Base rate starts at ~10 POGE/day per NFT, decaying to ~1 POGE/day over 730 days. With the 2x multiplier, you can earn up to 20 POGE/day initially, tapering to 2 POGE/day."
+          },
+          {
+            "q": "What is POGE used for?",
+            "a": "POGE is the ecosystem token. Future utility TBD — currently distributed as staking rewards. Fixed supply of 1 billion tokens."
+          },
+          {
+            "q": "What happens if the reward pool runs out?",
+            "a": "The contract handles low balance gracefully — it pays what's available and emits transparent events. 500M POGE is allocated to staking, providing a 27.6% safety buffer."
+          },
+          {
+            "q": "Can rewards be increased later?",
+            "a": "No. The staking contract is immutable with no admin functions. Emission rates are fixed in the code and cannot be changed."
+          }
+        ]
+      },
+      {
+        "category": "Technical & Security",
+        "questions": [
+          {
+            "q": "Has the contract been audited?",
+            "a": "Not formally audited. The contract uses battle-tested patterns: ERC721A, ReentrancyGuard, SafeERC20, and Checks-Effects-Interactions. Code is open source on Etherscan and GitHub for community review."
+          },
+          {
+            "q": "Can the team rug pull?",
+            "a": "No. The staking contract has zero admin functions — no pause, no upgrade, no withdrawal. The NFT contract owner can only toggle sale status and withdraw mint funds. Your NFTs are always yours, staked or not."
+          },
+          {
+            "q": "What if the website goes down?",
+            "a": "Everything works without the website. Interact directly with contracts via Etherscan. NFT metadata is fully on-chain — no IPFS or server dependency."
+          },
+          {
+            "q": "Where is the metadata stored?",
+            "a": "100% on-chain. The SVG and logic are embedded in the contract itself. No IPFS, no servers, no external dependencies. Your NFT exists as long as Ethereum does."
+          },
+          {
+            "q": "Can my NFT be censored or frozen?",
+            "a": "No. Standard ERC721 with no blacklist or burn capabilities. Once minted, the NFT can be freely transferred, staked, or sold."
+          }
+        ]
+      },
+      {
+        "category": "Troubleshooting",
+        "questions": [
+          {
+            "q": "My transaction failed — what do I do?",
+            "a": "Check: 1) Enough ETH for gas, 2) Sale is active when minting, 3) Contract is approved when staking, 4) Not exceeding limits. Try increasing gas limit if needed."
+          },
+          {
+            "q": "I approved but can't stake?",
+            "a": "Approval is contract-specific. Make sure you approved the staking contract address shown on the stake page, not the NFT contract."
+          },
+          {
+            "q": "My NFT image isn't loading?",
+            "a": "NFTs are SVG format — some wallets/marketplaces may need time to render. You can view directly via tokenURI() on the contract in Etherscan."
+          },
+          {
+            "q": "Can I unstake immediately?",
+            "a": "Yes, at any time. No lock-up period, no fees. Go to Stake page, select your NFTs, click Unstake. Rewards are automatically claimed."
+          }
+        ]
+      }
+    ]
+  },
+  "simulator": {
+    "generating": "Generating NFT...",
+    "picked": "Picked",
+    "bgDark": "Dark",
+    "bgLight": "Light",
+    "bgGrid": "Grid",
+    "randomBtn": "Random Dunk Poge"
+  }
+}

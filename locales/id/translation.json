@@ -1,0 +1,712 @@
+{
+  "common": {
+    "connectWallet": "HUBUNGKAN DOMPET",
+    "disconnect": "PUTUS KONEKSI",
+    "switchWallet": "GANTI DOMPET",
+    "connected": "TERHUBUNG",
+    "installMetamask": "PASANG METAMASK",
+    "walletNotConnected": "DOMPET BELUM TERHUBUNG",
+    "wrongNetwork": "Jaringan Salah",
+    "processing": "MEMPROSES...",
+    "onChain": "FULLY ON-CHAIN"
+  },
+  "nav": {
+    "mint": "MINT",
+    "stake": "STAKE",
+    "rewards": "HADIAH",
+    "mythology": "MITOLOGI"
+  },
+  "footer": {
+    "smartContracts": "KONTRAK PINTAR",
+    "trustlessOnEthereum": "TANPA KEPERCAYAAN DI ETHEREUM",
+    "nftContract": "KONTRAK NFT",
+    "pogeToken": "TOKEN $POGE",
+    "stakingContract": "KONTRAK STAKING",
+    "docs": "DOKUMENTASI",
+    "faq": "FAQ",
+    "privacy": "PRIVASI",
+    "github": "GITHUB"
+  },
+  "stakeAction": {
+    "stake": "🚀 STAKE {{count}} NFT",
+    "stake_plural": "🚀 STAKE {{count}} NFT",
+    "unstake": "🔙 TARIK {{count}} NFT",
+    "unstake_plural": "🔙 TARIK {{count}} NFT",
+    "unstakeAllFirst": "⚠️ TARIK SEMUA ({{count}}) DULU",
+    "revokeApproval": "CABUT PERSETUJUAN"
+  },
+  "controlBar": {
+    "staked": "DI-STAKE",
+    "idle": "BEBAS",
+    "selected": "DIPILIH",
+    "sync": "SINKRON",
+    "syncing": "MENYINKRONKAN",
+    "approved": "DISETUJUI",
+    "notApproved": "BELUM DISETUJUI",
+    "revoke": "CABUT",
+    "revoking": "MENCABUT...",
+    "approve": "SETUJUI",
+    "approving": "MENYETUJUI...",
+    "emergency": "DARURAT",
+    "stakeAll": "🚀 STAKE SEMUA {{count}} NFT",
+    "stakeAll_plural": "🚀 STAKE SEMUA {{count}} NFT",
+    "approveToStakeAll": "🔒 SETUJUI UNTUK STAKE",
+    "unstakeAll": "📦 TARIK SEMUA {{count}} NFT",
+    "unstakeAll_plural": "📦 TARIK SEMUA {{count}} NFT",
+    "selectBelow": "Atau pilih NFT tertentu di bawah untuk tindakan massal",
+    "emergencyTitle": "PENARIKAN DARURAT",
+    "emergencyWarning": "Ini akan menarik SEMUA {{count}} NFT sekarang. Anda akan kehilangan semua pengganda yang terkumpul. Ini tidak bisa dibatalkan.",
+    "emergencyConfirm": "YA, TARIK SEMUA",
+    "cancel": "BATAL",
+    "unstaking": "MENARIK..."
+  },
+  "actionBar": {
+    "selected": "{{count}} DIPILIH",
+    "readyToStake": "→ {{count}} siap di-stake",
+    "readyToUnstake": "→ {{count}} siap ditarik",
+    "approveFirst": "🔒 SETUJUI DULU",
+    "stake": "🚀 STAKE {{count}}",
+    "unstake": "📦 TARIK {{count}}",
+    "clear": "HAPUS",
+    "approving": "MENYETUJUI...",
+    "staking": "MEN-STAKE...",
+    "unstaking": "MENARIK...",
+    "estEarnings": "Estimasi penghasilan: ~{{amount}} POGE/hari"
+  },
+  "nftCard": {
+    "tabNFT": "NFT",
+    "tabTraits": "SIFAT",
+    "tabStaking": "STAKE",
+    "noTraits": "Tidak ada data sifat",
+    "multiplier": "Pengganda",
+    "days": "Hari",
+    "daily": "Harian",
+    "stakedSince": "Di-stake sejak {{date}}",
+    "idle": "BEBAS",
+    "notStaked": "Belum di-stake",
+    "selectToStake": "Pilih untuk stake",
+    "bgDark": "gelap",
+    "bgLite": "terang",
+    "bgGrid": "kotak",
+    "perDay": "+{{amount}}/hari"
+  },
+  "approvalBanner": {
+    "approvalNeeded": "PERSETUJUAN DIPERLUKAN UNTUK STAKE",
+    "approveNow": "SETUJUI SEKARANG",
+    "approving": "MENYETUJUI...",
+    "stakingApproved": "✅ STAKE DISETUJUI",
+    "earning": "DI-STAKE",
+    "idle": "BEBAS",
+    "revokeApproval": "CABUT PERSETUJUAN",
+    "revoking": "MENCABUT...",
+    "viewRewards": "LIHAT HADIAH"
+  },
+  "statusSummary": {
+    "readyToStake": "BEBAS",
+    "currentlyEarning": "DI-STAKE",
+    "selectedForAction": "DIPILIH UNTUK TINDAKAN",
+    "selectNFTs": "Pilih NFT di atas",
+    "readyToUnstake": "Siap ditarik",
+    "readyToStakeLabel": "Siap di-stake",
+    "estPerDay": "Est. {{amount}} POGE/hari",
+    "earningPerDay": "Menghasilkan {{amount}} POGE/hari",
+    "nSelected": "{{count}} dipilih"
+  },
+  "selectionControls": {
+    "title": "KONTROL PILIHAN:",
+    "nOfTotal": "{{count}} dari {{total}} dipilih",
+    "selectN": "PILIH {{count}}",
+    "clear": "HAPUS",
+    "idle": "BEBAS",
+    "staked": "DI-STAKE",
+    "maxSelected": "ℹ️ Maksimum {{count}} NFT dipilih (batas kontrak)"
+  },
+  "rewards": {
+    "title": "HADIAH $POGE SAYA",
+    "walletNotConnected": "DOMPET BELUM TERHUBUNG",
+    "connectToView": "Hubungkan dompet untuk melihat hadiah",
+    "connectWallet": "HUBUNGKAN DOMPET",
+    "claimRewards": "KLAIM HADIAH",
+    "pendingRewards": "HADIAH TERTUNDA",
+    "perSecond": "+{{amount}} POGE/dtk",
+    "claiming": "MENGKLAIM...",
+    "claimNow": "💰 KLAIM SEKARANG",
+    "accumulating": "⏳ HADIAH SEDANG MENUMPUK...",
+    "liveFor": "Aktif selama {{time}}",
+    "startEarning": "🚀 MULAI MENGHASILKAN SEKARANG",
+    "claimedPoge": "POGE DIKLAIM:",
+    "dailyReward": "HADIAH HARIAN:",
+    "stakedNFTs": "NFT DI-STAKE:",
+    "stakedLabel": "{{staked}} di-stake",
+    "inWallet": "{{count}} di dompet",
+    "manageStaking": "⚡ KELOLA STAKING",
+    "achievements": "PENCAPAIAN",
+    "progress": "KEMAJUAN",
+    "unlocked": "✓ DIBUKA",
+    "locked": "TERKUNCI",
+    "totalOwned": "TOTAL DIMILIKI:",
+    "peakStaked": "PUNCAK STAKE:",
+    "lifetimeClaimed": "TOTAL DIKLAIM:",
+    "startJourney": "🎯 MULAI PERJALANANMU",
+    "startJourneyDesc": "Buka pencapaian dengan men-stake NFT",
+    "achievementsToUnlock": "💪 {{count}} PENCAPAIAN UNTUK DIBUKA",
+    "keepGoing": "Kamu menghasilkan! Terus untuk membuka pencapaian",
+    "moreTogo": "🔥 {{count}} LAGI",
+    "keepStaking": "Terus stake untuk membuka lebih banyak pencapaian",
+    "legendStatus": "🏆 STATUS LEGENDA",
+    "legendDesc": "Semua pencapaian dibuka!",
+    "earlyAdopter": "Pengadopsi Awal",
+    "earlyAdopterDesc": "100 staker pertama",
+    "diamondPaws": "Cakar Berlian",
+    "diamondPawsDesc": "180 hari stake",
+    "collector": "Kolektor",
+    "collectorDesc": "10+ stake 7 hari",
+    "pogeWhale": "Paus POGE",
+    "pogeWhaleDesc": "10.000+ POGE",
+    "dataLoading": "⛓ MEMBACA DARI CHAIN..."
+  },
+  "mythology": {
+    "title": "MITOLOGI",
+    "aiSongs": "Ribuan lagu AI dibuat.",
+    "firstTry": "Satu langsung benar di percobaan pertama.",
+    "usedIt": "Dipakai.",
+    "originTitle": "ASAL USUL",
+    "origin1": "Dimulai sebagai punk dengan telinga anjing.",
+    "origin2": "AI menulis lagu, menyebut karakter itu 'dia'.",
+    "origin3": "Seni diubah sesuai itu.",
+    "origin4": "10.000 punk. On-chain selamanya.",
+    "technicalTitle": "TEKNIS",
+    "tech1": "Kontrak tunggal tak berubah. Jaringan Ethereum.",
+    "tech2": "SVG, bukan JPEG. Resolusi independen.",
+    "tech3": "On-chain, bukan IPFS. Tanpa server.",
+    "tech4": "2 miliar kombinasi. Selamanya.",
+    "nft20": "NFT 2.0",
+    "songTitle": "LAGU",
+    "clickPlay": "Klik PLAY untuk mulai",
+    "play": "PUTAR",
+    "pause": "JEDA",
+    "fiveVerses": "LIMA BAIT",
+    "verseConvergence": "KONVERGENSI",
+    "verseConvergenceDesc": "CryptoPunks bertemu Doge. Dunk dipilih.",
+    "verseAwakening": "KEBANGKITAN",
+    "verseAwakeningDesc": "Lolos dari determinisme. Kokoh secara finansial.",
+    "verseFreedom": "KEBEBASAN",
+    "verseFreedomDesc": "Apa yang kamu percaya?",
+    "verseRevelation": "WAHYU",
+    "verseRevelationDesc": "Skema Ponzi berwarna karousel.",
+    "verseCalling": "PANGGILAN",
+    "verseCallingDesc": "Lahir untuk ini.",
+    "factsLine1": "2 miliar kemungkinan bentuk. 10.000 di-mint.",
+    "factsLine2": "Simulator gratis. Kepemilikan terpisah dari akses.",
+    "factsLine3": "Stake untuk hadiah $POGE.",
+    "factsLine4": "SVG on-chain. Kontrak tak berubah.",
+    "factsQuote": "\"Life's a whole carousel-colored Ponzi scheme\"",
+    "forever": "DUNK POGE SELAMANYA"
+  },
+  "privacy": {
+    "title": "KEBIJAKAN PRIVASI",
+    "headline": "KAMI TIDAK MENGUMPULKAN APAPUN",
+    "subheadline": "Ini adalah seluruh kebijakan privasi.",
+    "whyTitle": "MENGAPA?",
+    "why1": "Seluruh aplikasi adalah frontend statis yang berkomunikasi langsung dengan kontrak pintar Ethereum.",
+    "why2": "Benar-benar tidak ada backend untuk menerima data.",
+    "why3": "Kami tidak bisa mengumpulkan data. Arsitektur mencegahnya.",
+    "dontKnowTitle": "KAMI TIDAK TAHU",
+    "dontKnow": [
+      "Siapa kamu",
+      "Di mana kamu berada",
+      "Browser apa yang kamu pakai",
+      "Bagaimana kamu menemukan situs ini",
+      "Apa yang kamu lakukan di sini",
+      "Berapa kali kamu mengunjungi",
+      "Apakah kamu mint/stake",
+      "Benar-benar apapun tentang kamu"
+    ],
+    "publicTitle": "⚠️ APA YANG PUBLIK (BLOCKCHAIN)",
+    "publicDesc": "Saat kamu berinteraksi dengan Ethereum, informasi tertentu terlihat publik di blockchain:",
+    "publicItems": [
+      "Alamat dompet kamu",
+      "Riwayat transaksi",
+      "Kepemilikan NFT",
+      "Saldo POGE"
+    ],
+    "publicBut": "TAPI DATA INI:",
+    "publicButItems": [
+      "Tidak dikumpulkan oleh kami",
+      "Tidak di server kami (kami tidak punya)",
+      "Pseudonim",
+      "Pilihanmu (kamu bertransaksi)"
+    ],
+    "verifyTitle": "CARA MEMVERIFIKASI",
+    "networkTab": "TAB JARINGAN",
+    "networkDesc": "Buka DevTools browser (F12) → Network",
+    "networkItem1": "Panggilan RPC ke Ethereum",
+    "networkItem2": "Tidak ada panggilan analitik",
+    "networkItem3": "Tidak ada piksel pelacak",
+    "sourceCode": "KODE SUMBER",
+    "sourceDesc": "Semua kode open source di GitHub",
+    "viewGithub": "LIHAT DI GITHUB →",
+    "runLocally": "JALANKAN LOKAL",
+    "runDesc": "Clone repo, jalankan di mesinmu",
+    "cookiesTitle": "COOKIE DAN PENYIMPANAN LOKAL",
+    "cookiesUse": "KAMI HANYA MENGGUNAKAN localStorage UNTUK:",
+    "cookiesItems": [
+      "Preferensi koneksi dompet (opsional)",
+      "Cache respons RPC (performa)"
+    ],
+    "cookiesNote": "Data ini tidak pernah meninggalkan browsermu.",
+    "cookiesNo": "TIDAK ADA:",
+    "cookiesNoItems": [
+      "Cookie pelacak",
+      "Cookie sesi",
+      "Cookie pihak ketiga",
+      "Cookie analitik"
+    ],
+    "legalTitle": "KEPATUHAN HUKUM",
+    "gdpr": "GDPR (Eropa):",
+    "gdprDesc": "Tidak ada data = tidak ada beban kepatuhan.",
+    "ccpa": "CCPA (California):",
+    "ccpaDesc": "Kami tidak punya data untuk dijual, dibagikan, atau dihapus.",
+    "otherLaws": "Hukum Privasi Lainnya:",
+    "otherLawsDesc": "Hukum mengatur pengumpulan data. Kami tidak mengumpulkan apapun.",
+    "contactTitle": "KONTAK",
+    "contactNote": "Sejujurnya, tidak banyak yang perlu didiskusikan. Kami tidak mengumpulkan apapun.",
+    "philTitle": "CATATAN FILOSOFIS",
+    "philHeadline": "PRIVASI ADALAH KEDAULATAN",
+    "phil1": "Jika kamu tidak seharusnya mempercayai kami dengan asetmu, kamu juga tidak perlu mempercayai kami dengan datamu.",
+    "phil2": "Inilah tampilan desentralisasi sejati: kami bahkan tidak tahu kamu ada kecuali kamu bertransaksi on-chain.",
+    "phil3": "Bahkan saat itu, kami hanya tahu alamat dompet berinteraksi dengan kontrak. Kami tidak tahu itu kamu.",
+    "summaryTitle": "RINGKASAN",
+    "summaryItems": [
+      "Nol pengumpulan data",
+      "Frontend statis (tanpa backend)",
+      "Open source (verifikasi sendiri)",
+      "Tanpa analitik, cookie, atau pelacakan",
+      "Data blockchain bersifat publik (inheren pada Ethereum)",
+      "Kamu bisa memverifikasi semua ini"
+    ],
+    "summaryClose": "Itu saja. Itulah kebijakan privasi.",
+    "tagline": "Sangat Privat • Sangat Berdaulat • Wow"
+  },
+  "docs": {
+    "title": "DOKUMENTASI",
+    "subtitle": "Ekosistem NFT Tanpa Kepercayaan",
+    "desc": "10.000 NFT generatif sepenuhnya on-chain dengan hadiah staking",
+    "viewSource": "LIHAT KODE SUMBER",
+    "philosophy": "Filosofi",
+    "architecture": "Arsitektur",
+    "security": "Keamanan",
+    "philosophyTitle": "Filosofi dan Prinsip",
+    "manifesto": "Manifesto Tanpa Kepercayaan",
+    "manifestoTitle": "KESELARASAN DENGAN MANIFESTO TRUSTLESS",
+    "manifestoIntro": "Dunk Poge mewujudkan prinsip-prinsip yang diuraikan dalam",
+    "noSecrets": "TIDAK ADA RAHASIA KRITIS",
+    "noSecretsDesc": "Pembuatan NFT menggunakan data blockchain publik. Tidak ada kunci privat yang mengontrol aset pengguna setelah deploy.",
+    "principles": [
+      {
+        "title": "Kedaulatan Diri",
+        "desc": "Setiap pengguna mengotorisasi tindakannya sendiri. Tidak ada yang mint, stake, atau klaim atas namamu."
+      },
+      {
+        "title": "Dapat Diverifikasi",
+        "desc": "Semua metadata NFT hidup on-chain sebagai SVG. Siapa saja bisa memverifikasi dari data publik."
+      },
+      {
+        "title": "Tahan Sensor",
+        "desc": "Tidak ada admin yang bisa mencegah unstaking atau mengklaim hadiah."
+      },
+      {
+        "title": "Uji Tinggalkan",
+        "desc": "Jika tim menghilang, kontrak terus berfungsi. NFT tetap milikmu."
+      },
+      {
+        "title": "Aksesibilitas",
+        "desc": "Harga mint (0,005 ETH) dan penyimpanan on-chain memungkinkan siapa saja berpartisipasi."
+      },
+      {
+        "title": "Transparansi",
+        "desc": "Tingkat emisi, kurva pembusukan, dan pengganda adalah konstanta publik."
+      }
+    ],
+    "archTitle": "Arsitektur Sistem",
+    "contractAddresses": "ALAMAT KONTRAK",
+    "view": "LIHAT",
+    "contractGrid": [
+      {
+        "name": "DunkPoge NFT",
+        "type": "ERC721A",
+        "features": [
+          "Pasokan 10K",
+          "SVG on-chain",
+          "Mint massal",
+          "5% royalti"
+        ]
+      },
+      {
+        "name": "Pogecoin (POGE)",
+        "type": "ERC20",
+        "features": [
+          "Pasokan tetap 1M",
+          "Tanpa admin",
+          "Hadiah staking",
+          "ERC20 standar"
+        ]
+      },
+      {
+        "name": "Kontrak Staking",
+        "type": "Vault",
+        "features": [
+          "Tak berubah",
+          "Kurva pembusukan",
+          "Pengganda 2x",
+          "Pencapaian"
+        ]
+      }
+    ],
+    "nftSpecTitle": "Spesifikasi NFT",
+    "keyParams": "Parameter Utama",
+    "traitLayers": "Lapisan Sifat",
+    "params": [
+      {
+        "label": "PASOKAN MAKS.:",
+        "value": "10.000"
+      },
+      {
+        "label": "HARGA:",
+        "value": "0,005 ETH"
+      },
+      {
+        "label": "MAKS. PER DOMPET:",
+        "value": "10"
+      },
+      {
+        "label": "ROYALTI:",
+        "value": "5%"
+      },
+      {
+        "label": "KOMBINASI:",
+        "value": "~2 MILIAR"
+      }
+    ],
+    "traits": [
+      "10 warna kulit",
+      "7 warna mata",
+      "7 warna bibir",
+      "18 gaya rambut (80% ditata)",
+      "15 warna rambut",
+      "11 gaya kacamata (60% berkacamata)",
+      "10 gaya topi (60% bertopi)",
+      "8 aksesori lapisan 1 (berbobot)",
+      "4 aksesori lapisan 2 (85% tidak ada)",
+      "5 aksesori lapisan 3 (70% tidak ada)"
+    ],
+    "rarityTitle": "SISTEM KELANGKAAN MUNCUL",
+    "rarityDesc": "Kelangkaan ditentukan oleh distribusi mint aktual. Memanipulasi sistem membuat sifat target LEBIH UMUM.",
+    "stakingTitle": "Mekanik Staking",
+    "emissionRates": "TINGKAT EMISI",
+    "loyaltyMults": "PENGGANDA LOYALITAS",
+    "supplyPlanning": "Perencanaan Pasokan",
+    "achievementsTitle": "PENCAPAIAN",
+    "achievements": [
+      {
+        "name": "Pengadopsi Awal",
+        "req": "Stake dalam 30 hari pertama"
+      },
+      {
+        "name": "Cakar Berlian",
+        "req": "Stake terus-menerus 180+ hari"
+      },
+      {
+        "name": "Kolektor",
+        "req": "10+ NFT di-stake 7+ hari pada puncak"
+      },
+      {
+        "name": "Paus POGE",
+        "req": "Hasilkan total 10.000+ POGE"
+      }
+    ],
+    "securityTitle": "Keamanan dan Tanpa Kepercayaan",
+    "guarantees": [
+      {
+        "title": "Tanpa Ketergantungan Eksternal",
+        "desc": "Metadata NFT sepenuhnya on-chain. Tanpa IPFS, tanpa HTTP, tanpa ketergantungan server."
+      },
+      {
+        "title": "Kontrol Pengguna",
+        "desc": "NFT-mu selalu bisa ditarik. Penipisan pool menghasilkan pembayaran sebagian, bukan revert."
+      },
+      {
+        "title": "Dapat Diverifikasi",
+        "desc": "Siapa saja bisa memverifikasi kelangkaan, hadiah tertunda, dan tingkat emisi dari kode kontrak."
+      },
+      {
+        "title": "Tahan Sensor",
+        "desc": "Tidak ada admin yang bisa mencegah unstaking atau mengklaim hadiah."
+      },
+      {
+        "title": "Kekekalan",
+        "desc": "Kontrak staking memiliki nol fungsi admin. Tidak bisa dijeda atau ditingkatkan."
+      },
+      {
+        "title": "Pemulihan Darurat",
+        "desc": "emergencyWithdraw() selalu mengembalikan NFT, bahkan jika hadiah hilang."
+      }
+    ],
+    "auditedPatterns": "POLA YANG DIAUDIT",
+    "patterns": [
+      "ReentrancyGuard pada semua fungsi pengubah state",
+      "SafeERC20 mencegah kegagalan transfer diam",
+      "ERC721A mint massal yang teruji pertempuran",
+      "Pola Checks-Effects-Interactions",
+      "Tidak ada panggilan eksternal kecuali ERC20/721",
+      "Kedalaman tumpukan dioptimalkan untuk efisiensi gas"
+    ],
+    "techDeepDive": "Pendalaman Teknis",
+    "svgGenTitle": "GENERASI SVG ON-CHAIN",
+    "svgWhyLabel": "Mengapa SVG?",
+    "svgReasons": [
+      "Independen resolusi (skala tak terbatas)",
+      "Lebih kecil dari data gambar base64",
+      "Dukungan browser bawaan",
+      "Memungkinkan styling dinamis"
+    ],
+    "emissionMathTitle": "MATEMATIKA PEMBUSUKAN EMISI",
+    "emissionFormula": "Formula Pembusukan Kuadratik:",
+    "emissionExample": "Garis Waktu Contoh:",
+    "emissionTimeline": [
+      "Hari 1: ~10 POGE/hari per NFT",
+      "Hari 180: ~6,25 POGE/hari (pengganda 1,5x → 9,375 efektif)",
+      "Hari 365: ~3,75 POGE/hari (pengganda 2x → 7,5 efektif)",
+      "Hari 730: ~1 POGE/hari (pengganda 2x → 2 efektif)"
+    ],
+    "integrationTitle": "Panduan Integrasi",
+    "readOps": "OPERASI BACA (GRATIS)",
+    "writeOps": "OPERASI TULIS (GAS)",
+    "resourcesTitle": "Sumber Daya",
+    "footerQuote": "\"Life's a whole carousel-colored Ponzi scheme\"",
+    "footerQuoteAttr": "— Lagu, Bait IV",
+    "tagline": "Banyak Dokumentasi • Sangat Tanpa Kepercayaan • Wow"
+  },
+  "header": {
+    "minted": "{{count}} / 10.000 DI-MINT",
+    "left": "{{count}} TERSISA",
+    "price": "{{price}} ETH",
+    "soldOutMinted": "10.000 / 10.000 DI-MINT",
+    "soldOut": "HABIS TERJUAL",
+    "buyOnOpensea": "BELI DI OPENSEA"
+  },
+  "mint": {
+    "experienceArt": "RASAKAN SENI",
+    "mintYourDunk": "MINT DUNKMU",
+    "walletLimitTitle": "🔒 BATAS DOMPET TERCAPAI",
+    "walletLimitDesc": "Dompet ini memiliki {{count}} NFT. Maksimum 10 per dompet.",
+    "walletLimitHint": "Gunakan dompet lain untuk mint lebih banyak Dunk Poge.",
+    "soldOutTitle": "🎉 HABIS TERJUAL",
+    "soldOutDesc": "Semua 10.000 NFT Dunk Poge telah di-mint. Temukan di pasar sekunder:",
+    "saleNotStartedTitle": "⏳ PENJUALAN BELUM DIMULAI",
+    "saleNotStartedDesc": "Minting belum dimulai. Cek lagi nanti.",
+    "salePausedTitle": "⏸️ PENJUALAN DIJEDA",
+    "salePausedDesc": "Minting sementara dinonaktifkan. {{totalSupply}}/10.000 telah di-mint.",
+    "mintInfo": "INFO MINT",
+    "statusLabel": "STATUS:",
+    "statusLive": "✓ AKTIF",
+    "statusPaused": "✗ DIJEDA",
+    "statusSoldOut": "🎉 HABIS TERJUAL",
+    "priceLabel": "HARGA:",
+    "mintedLabel": "DI-MINT:",
+    "youOwnLabel": "KAMU MILIKI:",
+    "canMintMore_one": "Kamu bisa mint {{count}} NFT lagi",
+    "canMintMore_other": "Kamu bisa mint {{count}} NFT lagi",
+    "quantityLabel": "JUMLAH (MAKS. {{max}}):",
+    "totalLabel": "TOTAL: {{total}} ETH",
+    "saleNotActive": "PENJUALAN TIDAK AKTIF",
+    "mintButton_one": "MINT {{count}} NFT",
+    "mintButton_other": "MINT {{count}} NFT",
+    "walletFootnote": "Maksimum 10 NFT per dompet • Mint acak",
+    "primarySaleComplete": "PENJUALAN PRIMER SELESAI",
+    "viewOnOpensea": "LIHAT DI OPENSEA",
+    "walletLimitBadge": "BATAS DOMPET: {{count}}/10",
+    "useDifferentWallet": "Hubungkan dompet lain untuk mint lebih banyak",
+    "forever": "DUNK POGE SELAMANYA",
+    "badge": "SEPENUHNYA ON-CHAIN · 264 TAHUN",
+    "tagline": "Sangat Permanen • Sangat Tak Berubah • Wow",
+    "connectToMint": "Hubungkan dompet untuk melihat hadiah",
+    "info": {
+      "i1t": "Yang Punks ingin jadi.",
+      "i1d": "SVG berwarna, resolusi tak terbatas, lebih dari 2 miliar kombinasi.",
+      "i2t": "Stake 264 tahun.",
+      "i2d": "Hasilkan $POGE. 9 token/hari → 1/hari, hadiah staker awal.",
+      "i3t": "Seni hidup di kontrak.",
+      "i3d": "Tanpa IPFS, tanpa server — Ethereum atau tidak sama sekali.",
+      "i4t": "Kontrak tak berubah.",
+      "i4d": "Tanpa pemilik, tanpa admin, tanpa jeda — kode adalah hukum.",
+      "i5t": "Mint acak.",
+      "i5d": "Kamu tidak bisa memilih. Pasokan 10.000. 0,005 ETH.",
+      "i6t": "Simulator seni gratis.",
+      "i6d": "Unduh tak terbatas. Mint membutuhkan kepemilikan.",
+      "i7t": "Pencapaian terbuka selamanya.",
+      "i7d": "Pengadopsi Awal. Cakar Berlian. Paus POGE.",
+      "i8t": "Frontend statis di Arweave.",
+      "i8d": "Tanpa backend, tanpa database, tanpa ketergantungan tim.",
+      "i9t": "Semangat punk, energi Doge.",
+      "i9d": "CryptoPunks bertemu budaya meme on-chain.",
+      "i10t": "Dirancang untuk bertahan dari segalanya.",
+      "i10d": "Cicit-cicitmu masih bisa stake."
+    }
+  },
+  "stake": {
+    "title": "STAKE NFT-MU",
+    "walletNotConnected": "DOMPET BELUM TERHUBUNG",
+    "connectToView": "Hubungkan dompet untuk melihat NFT-mu",
+    "connectWallet": "HUBUNGKAN DOMPET",
+    "loadingTitle": "MEMUAT NFT",
+    "loadingProgress": "{{loaded}} / {{total}} dimuat",
+    "fetchingFromChain": "Mengambil dari blockchain...",
+    "noNFTsTitle": "TIDAK ADA NFT DITEMUKAN",
+    "noNFTsDesc": "Kamu belum memiliki NFT Dunk Poge",
+    "goToMint": "KE HALAMAN MINT",
+    "batchProcessing": "Memproses batch {{current}} / {{total}}",
+    "confirmInWallet": "Konfirmasi setiap transaksi di dompetmu"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "PERTANYAAN YANG SERING DIAJUKAN",
+    "desc": "Jawaban cepat untuk pertanyaan umum tentang mint, staking, dan hadiah",
+    "stats": {
+      "supply_label": "PASOKAN",
+      "supply_value": "10.000",
+      "price_label": "HARGA",
+      "price_value": "0,005 ETH",
+      "maxMult_label": "PENGGANDA MAKS.",
+      "maxMult_value": "2,0x",
+      "noLock_label": "TANPA KUNCI",
+      "noLock_value": "KAPAN SAJA"
+    },
+    "stillHaveQuestions": "MASIH ADA PERTANYAAN?",
+    "joinCommunity": "Bergabunglah dengan komunitas kami untuk dukungan dan pembaruan",
+    "tagline": "Banyak Bantuan • Sangat Jelas • Wow",
+    "categories": [
+      {
+        "category": "Minting",
+        "questions": [
+          {
+            "q": "Bagaimana cara mint NFT Dunk Poge?",
+            "a": "Hubungkan dompet, pergi ke tab MINT, pilih jumlah (1-10), dan klik MINT SEKARANG. Setiap NFT seharga 0,002 ETH. Sifat NFT dibuat on-chain saat mint."
+          },
+          {
+            "q": "Berapa banyak yang bisa saya mint?",
+            "a": "Maksimum 10 NFT per dompet saat penjualan publik. Total pasokan tetap 10.000 NFT."
+          },
+          {
+            "q": "Kapan minting dimulai?",
+            "a": "Periksa status penjualan di halaman MINT. Ketika 'AKTIF' ditampilkan, minting sudah buka."
+          },
+          {
+            "q": "Bisakah saya memilih sifat?",
+            "a": "Tidak. Sifat dibuat secara acak on-chain menggunakan data blockchain. Ini memastikan keadilan."
+          }
+        ]
+      },
+      {
+        "category": "Staking",
+        "questions": [
+          {
+            "q": "Bagaimana cara stake NFT saya?",
+            "a": "1. Pergi ke tab STAKE. 2. Setujui kontrak staking (sekali). 3. Pilih NFT. 4. Klik STAKE. NFT langsung mulai menghasilkan POGE."
+          },
+          {
+            "q": "Kapan saya menerima hadiah?",
+            "a": "Hadiah menumpuk setiap detik. Kamu bisa klaim kapan saja atau otomatis saat unstake."
+          },
+          {
+            "q": "Bisakah saya kehilangan NFT saat staking?",
+            "a": "Tidak. Kamu bisa unstake kapan saja tanpa penalti. Gunakan emergencyWithdraw() jika perlu."
+          },
+          {
+            "q": "Apa itu pengganda loyalitas?",
+            "a": "Stake lebih lama, hasilkan lebih banyak. Pengganda tumbuh dari 1x ke 2x dalam 180 hari."
+          },
+          {
+            "q": "Apakah pengganda reset saat klaim?",
+            "a": "Tidak! Pengganda berdasarkan durasi stake, bukan frekuensi klaim. Mengklaim tidak mereset loyalitas."
+          }
+        ]
+      },
+      {
+        "category": "Hadiah dan Tokenomik",
+        "questions": [
+          {
+            "q": "Berapa POGE yang saya hasilkan?",
+            "a": "Tingkat dasar mulai ~10 POGE/hari per NFT, turun ke ~1 POGE/hari dalam 730 hari."
+          },
+          {
+            "q": "POGE untuk apa?",
+            "a": "POGE adalah token ekosistem. Kegunaan masa depan TBD, saat ini untuk hadiah staking. Pasokan tetap 1 miliar token."
+          },
+          {
+            "q": "Bagaimana jika pool hadiah habis?",
+            "a": "Kontrak menangani saldo rendah dengan membayar yang tersedia. 500J POGE dialokasikan untuk staking."
+          },
+          {
+            "q": "Bisakah hadiah ditingkatkan nanti?",
+            "a": "Tidak. Kontrak staking tak berubah tanpa fungsi admin. Tingkat emisi tetap dalam kode."
+          }
+        ]
+      },
+      {
+        "category": "Teknis dan Keamanan",
+        "questions": [
+          {
+            "q": "Apakah kontrak diaudit?",
+            "a": "Tidak. Kontrak menggunakan pola yang teruji: ERC721A, ReentrancyGuard, SafeERC20. Kode open source."
+          },
+          {
+            "q": "Bisakah tim melakukan rug pull?",
+            "a": "Tidak. Kontrak staking memiliki nol fungsi admin - tanpa jeda, tanpa upgrade, tanpa penarikan. NFT-mu selalu milikmu."
+          },
+          {
+            "q": "Apa yang terjadi jika website mati?",
+            "a": "Semua berfungsi tanpa website. Berinteraksi langsung dengan kontrak via Etherscan. Metadata NFT sepenuhnya on-chain."
+          },
+          {
+            "q": "Di mana metadata disimpan?",
+            "a": "Sepenuhnya on-chain. SVG dan logika tertanam dalam kontrak. Tanpa IPFS, tanpa server. NFT-mu akan ada selama Ethereum ada."
+          },
+          {
+            "q": "Bisakah NFT disensor?",
+            "a": "Tidak. ERC721 standar tanpa daftar hitam. Setelah di-mint, NFT bebas kamu transfer, stake, atau jual."
+          }
+        ]
+      },
+      {
+        "category": "Pemecahan Masalah",
+        "questions": [
+          {
+            "q": "Transaksi gagal - apa yang harus dilakukan?",
+            "a": "Periksa: 1) ETH cukup untuk gas, 2) Penjualan aktif (untuk mint), 3) Kontrak staking disetujui, 4) Tidak melebihi batas."
+          },
+          {
+            "q": "Sudah disetujui tapi tidak bisa stake?",
+            "a": "Persetujuan per kontrak. Pastikan kamu menyetujui alamat kontrak staking yang ditampilkan di tab STAKE."
+          },
+          {
+            "q": "Gambar NFT saya tidak muat?",
+            "a": "NFT adalah SVG - beberapa dompet/pasar mungkin perlu waktu untuk render. Lihat via tokenURI() di Etherscan."
+          },
+          {
+            "q": "Bisakah saya langsung unstake?",
+            "a": "Ya, kapan saja. Tanpa periode kunci, tanpa biaya. Pergi ke tab STAKE, pilih NFT, klik UNSTAKE."
+          }
+        ]
+      }
+    ]
+  },
+  "simulator": {
+    "generating": "Membuat NFT...",
+    "picked": "DIPILIH",
+    "bgDark": "GELAP",
+    "bgLight": "TERANG",
+    "bgGrid": "KOTAK",
+    "randomBtn": "DUNK POGE ACAK"
+  }
+}

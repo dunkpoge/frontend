@@ -1,0 +1,712 @@
+{
+  "common": {
+    "connectWallet": "ウォレット接続",
+    "disconnect": "切断",
+    "switchWallet": "ウォレット切替",
+    "connected": "接続済み",
+    "installMetamask": "MetaMaskをインストール",
+    "walletNotConnected": "ウォレット未接続",
+    "wrongNetwork": "ネットワーク不正",
+    "processing": "処理中...",
+    "onChain": "FULLY ON-CHAIN"
+  },
+  "nav": {
+    "mint": "ミント",
+    "stake": "ステーク",
+    "rewards": "報酬",
+    "mythology": "神話"
+  },
+  "footer": {
+    "smartContracts": "スマートコントラクト",
+    "trustlessOnEthereum": "イーサリアム上でトラストレス",
+    "nftContract": "NFTコントラクト",
+    "pogeToken": "$POGEトークン",
+    "stakingContract": "ステーキングコントラクト",
+    "docs": "ドキュメント",
+    "faq": "よくある質問",
+    "privacy": "プライバシー",
+    "github": "GITHUB"
+  },
+  "stakeAction": {
+    "stake": "🚀 {{count}}枚のNFTをステーク",
+    "stake_plural": "🚀 {{count}}枚のNFTをステーク",
+    "unstake": "🔙 {{count}}枚のNFTを取り出す",
+    "unstake_plural": "🔙 {{count}}枚のNFTを取り出す",
+    "unstakeAllFirst": "⚠️ まず全て取り出す（{{count}}枚）",
+    "revokeApproval": "承認を取り消す"
+  },
+  "controlBar": {
+    "staked": "ステーク中",
+    "idle": "待機中",
+    "selected": "選択済み",
+    "sync": "同期",
+    "syncing": "同期中",
+    "approved": "承認済み",
+    "notApproved": "未承認",
+    "revoke": "取り消す",
+    "revoking": "取り消し中...",
+    "approve": "承認",
+    "approving": "承認中...",
+    "emergency": "緊急",
+    "stakeAll": "🚀 全{{count}}枚をステーク",
+    "stakeAll_plural": "🚀 全{{count}}枚をステーク",
+    "approveToStakeAll": "🔒 ステークするために承認",
+    "unstakeAll": "📦 全{{count}}枚を取り出す",
+    "unstakeAll_plural": "📦 全{{count}}枚を取り出す",
+    "selectBelow": "または以下から特定のNFTを選んでバッチ処理",
+    "emergencyTitle": "緊急引き出し",
+    "emergencyWarning": "これにより全{{count}}枚のNFTが即座に引き出されます。蓄積された全乗数が失われます。取り消せません。",
+    "emergencyConfirm": "はい、全て引き出す",
+    "cancel": "キャンセル",
+    "unstaking": "取り出し中..."
+  },
+  "actionBar": {
+    "selected": "{{count}}枚選択",
+    "readyToStake": "→ {{count}}枚ステーク可能",
+    "readyToUnstake": "→ {{count}}枚引き出し可能",
+    "approveFirst": "🔒 まず承認",
+    "stake": "🚀 {{count}}枚ステーク",
+    "unstake": "📦 {{count}}枚取り出す",
+    "clear": "クリア",
+    "approving": "承認中...",
+    "staking": "ステーク中...",
+    "unstaking": "取り出し中...",
+    "estEarnings": "推定収益: ~{{amount}} POGE/日"
+  },
+  "nftCard": {
+    "tabNFT": "NFT",
+    "tabTraits": "特性",
+    "tabStaking": "ステーク",
+    "noTraits": "特性データなし",
+    "multiplier": "乗数",
+    "days": "日数",
+    "daily": "1日あたり",
+    "stakedSince": "{{date}}からステーク中",
+    "idle": "待機中",
+    "notStaked": "未ステーク",
+    "selectToStake": "ステークするために選択",
+    "bgDark": "暗い",
+    "bgLite": "明るい",
+    "bgGrid": "グリッド",
+    "perDay": "+{{amount}}/日"
+  },
+  "approvalBanner": {
+    "approvalNeeded": "ステークには承認が必要",
+    "approveNow": "今すぐ承認",
+    "approving": "承認中...",
+    "stakingApproved": "✅ ステーク承認済み",
+    "earning": "ステーク中",
+    "idle": "待機中",
+    "revokeApproval": "承認を取り消す",
+    "revoking": "取り消し中...",
+    "viewRewards": "報酬を見る"
+  },
+  "statusSummary": {
+    "readyToStake": "待機中",
+    "currentlyEarning": "ステーク中",
+    "selectedForAction": "操作のために選択",
+    "selectNFTs": "上からNFTを選択",
+    "readyToUnstake": "引き出し可能",
+    "readyToStakeLabel": "ステーク可能",
+    "estPerDay": "推定 {{amount}} POGE/日",
+    "earningPerDay": "{{amount}} POGE/日獲得中",
+    "nSelected": "{{count}}枚選択"
+  },
+  "selectionControls": {
+    "title": "選択コントロール:",
+    "nOfTotal": "{{total}}枚中{{count}}枚選択",
+    "selectN": "{{count}}枚選択",
+    "clear": "クリア",
+    "idle": "待機中",
+    "staked": "ステーク中",
+    "maxSelected": "ℹ️ 最大{{count}}枚選択済み（コントラクト上限）"
+  },
+  "rewards": {
+    "title": "$POGE報酬",
+    "walletNotConnected": "ウォレット未接続",
+    "connectToView": "報酬を見るためにウォレットを接続",
+    "connectWallet": "ウォレット接続",
+    "claimRewards": "報酬を受け取る",
+    "pendingRewards": "未請求報酬",
+    "perSecond": "+{{amount}} POGE/秒",
+    "claiming": "受け取り中...",
+    "claimNow": "💰 今すぐ受け取る",
+    "accumulating": "⏳ 報酬蓄積中...",
+    "liveFor": "{{time}}間アクティブ",
+    "startEarning": "🚀 今すぐ稼ぎ始める",
+    "claimedPoge": "受け取り済みPOGE:",
+    "dailyReward": "1日の報酬:",
+    "stakedNFTs": "ステーク中のNFT:",
+    "stakedLabel": "{{staked}}枚ステーク中",
+    "inWallet": "{{count}}枚ウォレット内",
+    "manageStaking": "⚡ ステーク管理",
+    "achievements": "実績",
+    "progress": "進捗",
+    "unlocked": "✓ 解除済み",
+    "locked": "ロック中",
+    "totalOwned": "総保有数:",
+    "peakStaked": "最高ステーク数:",
+    "lifetimeClaimed": "累計受け取り:",
+    "startJourney": "🎯 旅を始める",
+    "startJourneyDesc": "NFTをステークして実績を解除",
+    "achievementsToUnlock": "💪 {{count}}個の実績を解除",
+    "keepGoing": "稼いでいます！実績解除のために続けましょう",
+    "moreTogo": "🔥 あと{{count}}個",
+    "keepStaking": "さらに多くの実績のためにステークを続ける",
+    "legendStatus": "🏆 レジェンドステータス",
+    "legendDesc": "全実績解除！",
+    "earlyAdopter": "アーリーアダプター",
+    "earlyAdopterDesc": "最初の100ステーカー",
+    "diamondPaws": "ダイヤモンドポー",
+    "diamondPawsDesc": "180日ステーク",
+    "collector": "コレクター",
+    "collectorDesc": "10枚以上7日間ステーク",
+    "pogeWhale": "POGEクジラ",
+    "pogeWhaleDesc": "10,000+ POGE",
+    "dataLoading": "⛓ チェーンからデータを読み込み中..."
+  },
+  "mythology": {
+    "title": "神話",
+    "aiSongs": "何千ものAI楽曲を生成した。",
+    "firstTry": "一曲が初回で正解だった。",
+    "usedIt": "それを使った。",
+    "originTitle": "起源",
+    "origin1": "犬の耳のパンクスから始まった。",
+    "origin2": "AIが曲を書き、キャラクターを「彼女」と呼んだ。",
+    "origin3": "それに合わせてアートを変更した。",
+    "origin4": "10,000体のパンクス。オンチェーンで永遠に。",
+    "technicalTitle": "技術",
+    "tech1": "単一の不変コントラクト。イーサリアムチェーン。",
+    "tech2": "JPEG ではなく SVG。解像度に依存しない。",
+    "tech3": "IPFSではなくオンチェーン。サーバーなし。",
+    "tech4": "20億通りの組み合わせ。永遠に。",
+    "nft20": "NFT 2.0",
+    "songTitle": "楽曲",
+    "clickPlay": "PLAYをクリックして開始",
+    "play": "再生",
+    "pause": "一時停止",
+    "fiveVerses": "5つの節",
+    "verseConvergence": "収束",
+    "verseConvergenceDesc": "CryptoPunksがDogeと出会う。Dunkが選ばれた。",
+    "verseAwakening": "覚醒",
+    "verseAwakeningDesc": "決定論から脱出。財政的に強固。",
+    "verseFreedom": "自由",
+    "verseFreedomDesc": "あなたは何を信じますか？",
+    "verseRevelation": "啓示",
+    "verseRevelationDesc": "カルーセル色のネズミ講。",
+    "verseCalling": "召命",
+    "verseCallingDesc": "これのために生まれた。",
+    "factsLine1": "20億通りの形。10,000体ミント済み。",
+    "factsLine2": "無料シミュレーター。所有権とアクセスは別。",
+    "factsLine3": "$POGE報酬のためにステーク。",
+    "factsLine4": "SVGオンチェーン。不変コントラクト。",
+    "factsQuote": "\"Life's a whole carousel-colored Ponzi scheme\"",
+    "forever": "DUNK POGEは永遠"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "headline": "データを一切収集しません",
+    "subheadline": "これがプライバシーポリシー全文です。",
+    "whyTitle": "なぜ？",
+    "why1": "アプリ全体がEthereumスマートコントラクトと直接通信する静的フロントエンドです。",
+    "why2": "データを受け取るバックエンドが文字通り存在しません。",
+    "why3": "データを収集できません。アーキテクチャがそれを防ぎます。",
+    "dontKnowTitle": "私たちが知らないこと",
+    "dontKnow": [
+      "あなたが誰か",
+      "どこにいるか",
+      "どのブラウザを使っているか",
+      "このサイトをどう見つけたか",
+      "ここで何をしているか",
+      "何回訪問したか",
+      "ミント/ステークしたか",
+      "あなたに関するすべてのこと"
+    ],
+    "publicTitle": "⚠️ 公開されているもの（ブロックチェーン）",
+    "publicDesc": "Ethereumと対話すると、一部の情報がブロックチェーン上で公開されます：",
+    "publicItems": [
+      "ウォレットアドレス",
+      "取引履歴",
+      "NFT所有権",
+      "POGE残高"
+    ],
+    "publicBut": "ただしこのデータは：",
+    "publicButItems": [
+      "私たちが収集していない",
+      "私たちのサーバーにない（サーバーがない）",
+      "仮名性がある",
+      "あなたの選択（あなたが取引した）"
+    ],
+    "verifyTitle": "確認方法",
+    "networkTab": "ネットワークタブ",
+    "networkDesc": "ブラウザのDevTools (F12) → ネットワーク",
+    "networkItem1": "EthereumへのRPC呼び出し",
+    "networkItem2": "分析呼び出しなし",
+    "networkItem3": "トラッキングピクセルなし",
+    "sourceCode": "ソースコード",
+    "sourceDesc": "全コードがGitHubでオープンソース",
+    "viewGithub": "GitHubで見る →",
+    "runLocally": "ローカルで実行",
+    "runDesc": "リポジトリをクローンして自分のマシンで実行",
+    "cookiesTitle": "クッキーとローカルストレージ",
+    "cookiesUse": "localStorageの使用用途：",
+    "cookiesItems": [
+      "ウォレット接続設定（任意）",
+      "RPCレスポンスキャッシュ（パフォーマンス）"
+    ],
+    "cookiesNote": "このデータはブラウザの外に出ません。",
+    "cookiesNo": "なし：",
+    "cookiesNoItems": [
+      "トラッキングクッキー",
+      "セッションクッキー",
+      "サードパーティクッキー",
+      "分析クッキー"
+    ],
+    "legalTitle": "法的準拠",
+    "gdpr": "GDPR（欧州）：",
+    "gdprDesc": "データなし = コンプライアンスの負担なし。",
+    "ccpa": "CCPA（カリフォルニア）：",
+    "ccpaDesc": "売却・共有・削除するデータがありません。",
+    "otherLaws": "その他のプライバシー法：",
+    "otherLawsDesc": "法律はデータ収集を規制する。私たちは何も収集しない。",
+    "contactTitle": "お問い合わせ",
+    "contactNote": "正直なところ、議論することはあまりありません。何も収集していません。",
+    "philTitle": "哲学的ノート",
+    "philHeadline": "プライバシーは主権",
+    "phil1": "資産を私たちに信頼すべきでない（だからトラストレスなスマートコントラクト）なら、データも信頼する必要はありません。",
+    "phil2": "これが真の分散化の姿：チェーン上で取引しない限り、あなたが存在することさえ知らない。",
+    "phil3": "それでも、ウォレットアドレスがスマートコントラクトと対話したことしか知らない。それがあなたとは知らない。",
+    "summaryTitle": "まとめ",
+    "summaryItems": [
+      "データ収集ゼロ",
+      "静的フロントエンド（バックエンドなし）",
+      "オープンソース（自分で確認）",
+      "分析・クッキー・追跡なし",
+      "ブロックチェーンデータは公開（Ethereum固有）",
+      "これら全てを確認できる"
+    ],
+    "summaryClose": "以上です。これがプライバシーポリシーです。",
+    "tagline": "非常にプライベート・非常に主権的・すごい"
+  },
+  "docs": {
+    "title": "ドキュメント",
+    "subtitle": "トラストレスNFTエコシステム",
+    "desc": "ステーキング報酬付きの完全オンチェーン生成NFT 10,000点",
+    "viewSource": "ソースを見る",
+    "philosophy": "理念",
+    "architecture": "アーキテクチャ",
+    "security": "セキュリティ",
+    "philosophyTitle": "理念と原則",
+    "manifesto": "トラストレス宣言",
+    "manifestoTitle": "トラストレス・マニフェストとの整合性",
+    "manifestoIntro": "Dunk Pogeは以下に示す原則を体現しています",
+    "noSecrets": "重要な秘密なし",
+    "noSecretsDesc": "NFT生成は公開ブロックチェーンデータを使用。デプロイ後、ユーザー資産を制御する秘密鍵はありません。",
+    "principles": [
+      {
+        "title": "自己主権",
+        "desc": "各ユーザーが自分の操作を承認する。誰もあなたの代わりにミント・ステーク・請求しない。"
+      },
+      {
+        "title": "検証可能性",
+        "desc": "全NFTメタデータはSVGとしてオンチェーン。誰でも公開データから確認できる。"
+      },
+      {
+        "title": "検閲耐性",
+        "desc": "管理者はアンステークや報酬請求を阻止できない。"
+      },
+      {
+        "title": "離脱テスト",
+        "desc": "チームが消えてもコントラクトは機能し続ける。NFTは永遠にあなたのもの。"
+      },
+      {
+        "title": "アクセス可能性",
+        "desc": "ミント価格（0.005 ETH）とオンチェーン保存により誰でも参加できる。"
+      },
+      {
+        "title": "透明性",
+        "desc": "排出率、減衰曲線、乗数は公開定数。"
+      }
+    ],
+    "archTitle": "システムアーキテクチャ",
+    "contractAddresses": "コントラクトアドレス",
+    "view": "見る",
+    "contractGrid": [
+      {
+        "name": "DunkPoge NFT",
+        "type": "ERC721A",
+        "features": [
+          "供給量10K",
+          "オンチェーンSVG",
+          "バッチミント",
+          "5%ロイヤルティ"
+        ]
+      },
+      {
+        "name": "Pogecoin (POGE)",
+        "type": "ERC20",
+        "features": [
+          "10億固定供給",
+          "管理者なし",
+          "ステーキング報酬",
+          "標準ERC20"
+        ]
+      },
+      {
+        "name": "ステーキングコントラクト",
+        "type": "Vault",
+        "features": [
+          "不変",
+          "減衰曲線",
+          "2x乗数",
+          "実績"
+        ]
+      }
+    ],
+    "nftSpecTitle": "NFT仕様",
+    "keyParams": "主要パラメータ",
+    "traitLayers": "特性レイヤー",
+    "params": [
+      {
+        "label": "最大供給量:",
+        "value": "10,000"
+      },
+      {
+        "label": "価格:",
+        "value": "0.005 ETH"
+      },
+      {
+        "label": "ウォレット最大:",
+        "value": "10"
+      },
+      {
+        "label": "ロイヤルティ:",
+        "value": "5%"
+      },
+      {
+        "label": "組み合わせ:",
+        "value": "~20億"
+      }
+    ],
+    "traits": [
+      "10種の肌色",
+      "7種の目の色",
+      "7種の唇の色",
+      "18種のヘアスタイル（80%スタイリング済み）",
+      "15種の髪色",
+      "11種のメガネスタイル（60%着用）",
+      "10種のヘッドウェアスタイル（60%着用）",
+      "8種のアクセサリーレイヤー1（重み付き）",
+      "4種のアクセサリーレイヤー2（85%なし）",
+      "5種のアクセサリーレイヤー3（70%なし）"
+    ],
+    "rarityTitle": "創発レアリティシステム",
+    "rarityDesc": "レアリティは実際のミント分布で決まる。システムを操作すると対象の特性がより一般的になる。",
+    "stakingTitle": "ステーキングメカニクス",
+    "emissionRates": "排出率",
+    "loyaltyMults": "ロイヤルティ乗数",
+    "supplyPlanning": "供給計画",
+    "achievementsTitle": "実績",
+    "achievements": [
+      {
+        "name": "アーリーアダプター",
+        "req": "最初の30日以内にステーク"
+      },
+      {
+        "name": "ダイヤモンドポー",
+        "req": "継続して180日以上ステーク"
+      },
+      {
+        "name": "コレクター",
+        "req": "ピーク時に10枚以上を7日以上ステーク"
+      },
+      {
+        "name": "POGEクジラ",
+        "req": "合計10,000+ POGE獲得"
+      }
+    ],
+    "securityTitle": "セキュリティとトラストレス",
+    "guarantees": [
+      {
+        "title": "外部依存なし",
+        "desc": "NFTメタデータは完全オンチェーン。IPFS・HTTP・サーバー依存なし。"
+      },
+      {
+        "title": "ユーザーコントロール",
+        "desc": "NFTはいつでも引き出し可能。プール枯渇は部分支払いになり、リバートしない。"
+      },
+      {
+        "title": "検証可能性",
+        "desc": "誰でもコントラクトコードからレアリティ・未請求報酬・排出率を確認できる。"
+      },
+      {
+        "title": "検閲耐性",
+        "desc": "管理者はアンステークや報酬請求を阻止できない。"
+      },
+      {
+        "title": "不変性",
+        "desc": "ステーキングコントラクトには管理者機能がゼロ。一時停止やアップグレード不可。"
+      },
+      {
+        "title": "緊急回収",
+        "desc": "emergencyWithdraw()は報酬を失っても常にNFTを返す。"
+      }
+    ],
+    "auditedPatterns": "監査済みパターン",
+    "patterns": [
+      "全状態変更関数にReentrancyGuard",
+      "SafeERC20がサイレント転送失敗を防ぐ",
+      "ERC721Aの実戦テスト済みバッチミント",
+      "チェック-効果-インタラクションパターン",
+      "ERC20/721以外の外部呼び出しなし",
+      "ガス効率のためにスタック深度を最適化"
+    ],
+    "techDeepDive": "技術詳細",
+    "svgGenTitle": "オンチェーンSVG生成",
+    "svgWhyLabel": "なぜSVG？",
+    "svgReasons": [
+      "解像度非依存（無限スケール）",
+      "base64画像データより小さい",
+      "ブラウザネイティブサポート",
+      "動的スタイリング可能"
+    ],
+    "emissionMathTitle": "排出減衰数学",
+    "emissionFormula": "二次減衰公式：",
+    "emissionExample": "例のタイムライン：",
+    "emissionTimeline": [
+      "1日目: NFT1枚あたり~10 POGE/日",
+      "180日目: ~6.25 POGE/日（1.5x乗数 → 9.375実効）",
+      "365日目: ~3.75 POGE/日（2x乗数 → 7.5実効）",
+      "730日目: ~1 POGE/日（2x乗数 → 2実効）"
+    ],
+    "integrationTitle": "統合ガイド",
+    "readOps": "読み取り操作（無料）",
+    "writeOps": "書き込み操作（ガス）",
+    "resourcesTitle": "リソース",
+    "footerQuote": "\"Life's a whole carousel-colored Ponzi scheme\"",
+    "footerQuoteAttr": "— 楽曲、第4節",
+    "tagline": "非常に充実したドキュメント・非常にトラストレス・すごい"
+  },
+  "header": {
+    "minted": "{{count}} / 10,000 ミント済み",
+    "left": "残り{{count}}",
+    "price": "{{price}} ETH",
+    "soldOutMinted": "10,000 / 10,000 ミント済み",
+    "soldOut": "完売",
+    "buyOnOpensea": "OpenSeaで購入"
+  },
+  "mint": {
+    "experienceArt": "アートを体験",
+    "mintYourDunk": "あなたのDUNKをミント",
+    "walletLimitTitle": "🔒 ウォレット上限到達",
+    "walletLimitDesc": "このウォレットは{{count}}枚のNFTを保有。上限は10枚。",
+    "walletLimitHint": "さらにDunk Pogeをミントするには別のウォレットを使用してください。",
+    "soldOutTitle": "🎉 完売",
+    "soldOutDesc": "10,000枚のDunk Poge NFTが全てミントされました。二次市場で探してください：",
+    "saleNotStartedTitle": "⏳ セール未開始",
+    "saleNotStartedDesc": "ミントはまだ始まっていません。後ほど確認するかアナウンスをフォローしてください。",
+    "salePausedTitle": "⏸️ セール一時停止",
+    "salePausedDesc": "ミントは一時的に無効。{{totalSupply}}/10,000がミント済み。",
+    "mintInfo": "ミント情報",
+    "statusLabel": "ステータス：",
+    "statusLive": "✓ 受付中",
+    "statusPaused": "✗ 停止中",
+    "statusSoldOut": "🎉 完売",
+    "priceLabel": "価格：",
+    "mintedLabel": "ミント済み：",
+    "youOwnLabel": "保有数：",
+    "canMintMore_one": "あと{{count}}枚ミントできます",
+    "canMintMore_other": "あと{{count}}枚ミントできます",
+    "quantityLabel": "数量（最大{{max}}）：",
+    "totalLabel": "合計：{{total}} ETH",
+    "saleNotActive": "セール非アクティブ",
+    "mintButton_one": "{{count}}枚ミント",
+    "mintButton_other": "{{count}}枚ミント",
+    "walletFootnote": "ウォレット1つにつき最大10枚・ランダムミント",
+    "primarySaleComplete": "プライマリセール完了",
+    "viewOnOpensea": "OpenSeaで見る",
+    "walletLimitBadge": "ウォレット上限：{{count}}/10",
+    "useDifferentWallet": "さらにミントするには別のウォレットを接続",
+    "forever": "DUNK POGEは永遠",
+    "badge": "完全オンチェーン・264年",
+    "tagline": "非常に永続的・非常に不変・すごい",
+    "connectToMint": "報酬を見るためにウォレットを接続",
+    "info": {
+      "i1t": "パンクスがなりたかったもの。",
+      "i1d": "フルカラーSVG、無限解像度、20億以上の組み合わせ。",
+      "i2t": "264年間ステーク。",
+      "i2d": "$POGEを獲得。1日9トークン→1トークンへ逓減、早期ステーカー優遇。",
+      "i3t": "アートはコントラクト内に存在。",
+      "i3d": "IPFS・サーバー・依存関係なし — イーサリアムか無か。",
+      "i4t": "不変コントラクト。",
+      "i4d": "所有者なし・管理者なし・一時停止なし — コードは法律。",
+      "i5t": "ランダムミント。",
+      "i5d": "選べない。供給量10,000。0.005 ETH。",
+      "i6t": "無料アートシミュレーター。",
+      "i6d": "無制限ダウンロード。ミントで所有権取得。",
+      "i7t": "実績は永遠に解除。",
+      "i7d": "アーリーアダプター。ダイヤモンドポー。POGEクジラ。",
+      "i8t": "Arweave上の静的フロントエンド。",
+      "i8d": "バックエンド・データベース・チーム依存なし。",
+      "i9t": "パンクの精神、ドージのエネルギー。",
+      "i9d": "CryptoPunksとミーム文化がオンチェーンで出会う。",
+      "i10t": "全てを超えて存在するよう設計。",
+      "i10d": "ひ孫もまだステークできる。"
+    }
+  },
+  "stake": {
+    "title": "あなたのNFTをステーク",
+    "walletNotConnected": "ウォレット未接続",
+    "connectToView": "NFTを見るためにウォレットを接続",
+    "connectWallet": "ウォレット接続",
+    "loadingTitle": "NFTを読み込み中",
+    "loadingProgress": "{{loaded}} / {{total}} 読み込み済み",
+    "fetchingFromChain": "ブロックチェーンから取得中...",
+    "noNFTsTitle": "NFTが見つかりません",
+    "noNFTsDesc": "まだDunk Poge NFTを持っていません",
+    "goToMint": "ミントページへ",
+    "batchProcessing": "バッチ処理 {{current}} / {{total}}",
+    "confirmInWallet": "ウォレットで各トランザクションを確認"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "よくある質問",
+    "desc": "ミント・ステーキング・報酬に関するよくある質問への簡単な回答",
+    "stats": {
+      "supply_label": "供給量",
+      "supply_value": "10,000",
+      "price_label": "価格",
+      "price_value": "0.005 ETH",
+      "maxMult_label": "最大乗数",
+      "maxMult_value": "2.0x",
+      "noLock_label": "ロックなし",
+      "noLock_value": "いつでも"
+    },
+    "stillHaveQuestions": "まだ質問がありますか？",
+    "joinCommunity": "サポートと更新のためにコミュニティに参加",
+    "tagline": "非常に役立つ・非常に明確・すごい",
+    "categories": [
+      {
+        "category": "ミント",
+        "questions": [
+          {
+            "q": "Dunk Poge NFTのミント方法は？",
+            "a": "ウォレットを接続し、MINTタブへ移動、数量（1-10）を選択し、今すぐMINTをクリック。各NFTは0.002 ETH。NFTの特性はミント時にオンチェーンで生成。"
+          },
+          {
+            "q": "何枚ミントできますか？",
+            "a": "パブリックセール中はウォレット1つにつき最大10枚。総供給量は10,000枚。"
+          },
+          {
+            "q": "ミントはいつ始まりますか？",
+            "a": "MINTページのセールステータスを確認。「受付中」と表示されたらミント可能。"
+          },
+          {
+            "q": "特性を選べますか？",
+            "a": "いいえ。特性はブロックチェーンデータを使ってオンチェーンでランダム生成。公平性を保証し操作を防ぎます。"
+          }
+        ]
+      },
+      {
+        "category": "ステーキング",
+        "questions": [
+          {
+            "q": "NFTのステーク方法は？",
+            "a": "1. STAKEタブへ。2. ステーキングコントラクトを承認（一度のみ）。3. NFTを選択。4. STAKEをクリック。NFTがすぐにPOGEを稼ぎ始めます。"
+          },
+          {
+            "q": "いつ報酬を受け取れますか？",
+            "a": "報酬は排出率に基づいて毎秒蓄積。いつでも請求するかアンステーク時に自動請求。"
+          },
+          {
+            "q": "ステーク中にNFTを失いますか？",
+            "a": "いいえ。ペナルティなしでいつでもアンステーク可能。必要な場合はemergencyWithdraw()を使用。"
+          },
+          {
+            "q": "ロイヤルティ乗数とは？",
+            "a": "長くステークするほど多く稼げる。乗数は180日間で1xから2xに成長。"
+          },
+          {
+            "q": "請求すると乗数がリセットされますか？",
+            "a": "いいえ！乗数はステーク期間に基づき、請求頻度ではありません。報酬請求でロイヤルティがリセットされません。"
+          }
+        ]
+      },
+      {
+        "category": "報酬とトークノミクス",
+        "questions": [
+          {
+            "q": "どのくらいPOGEを稼げますか？",
+            "a": "基本レートはNFT1枚あたり1日~10 POGEから始まり、730日で~1 POGE/日に減衰。"
+          },
+          {
+            "q": "POGEは何に使えますか？",
+            "a": "POGEはエコシステムトークン。将来の用途は未定、現在はステーキング報酬。固定供給量10億トークン。"
+          },
+          {
+            "q": "報酬プールが枯渇したら？",
+            "a": "コントラクトは低残高を適切に処理し、利用可能な分を支払う。500M POGEがステーキングに割り当て済み。"
+          },
+          {
+            "q": "後で報酬を増やせますか？",
+            "a": "いいえ。ステーキングコントラクトは不変で管理者機能なし。排出率はコードに固定。"
+          }
+        ]
+      },
+      {
+        "category": "技術とセキュリティ",
+        "questions": [
+          {
+            "q": "コントラクトは監査されていますか？",
+            "a": "いいえ。ERC721A・ReentrancyGuard・SafeERC20など実績あるパターンを使用。コードはオープンソース。"
+          },
+          {
+            "q": "チームがラグプルできますか？",
+            "a": "いいえ。ステーキングコントラクトには管理者機能ゼロ — 一時停止・アップグレード・引き出しなし。NFTは常にあなたのもの。"
+          },
+          {
+            "q": "サイトがダウンしたら？",
+            "a": "サイトなしで全て動作。Etherscanからコントラクトと直接やり取り。NFTメタデータは完全オンチェーン。"
+          },
+          {
+            "q": "メタデータはどこに保存？",
+            "a": "完全オンチェーン。SVGとロジックがコントラクトに組み込まれている。IPFS・サーバー・外部依存なし。"
+          },
+          {
+            "q": "NFTが検閲される可能性は？",
+            "a": "いいえ。ブラックリストや焼却機能のない標準ERC721。ミント後はNFTを自由に転送・ステーク・売買可能。"
+          }
+        ]
+      },
+      {
+        "category": "トラブルシューティング",
+        "questions": [
+          {
+            "q": "トランザクションが失敗 - どうすれば？",
+            "a": "確認：1) gas用のETH残高、2) セールがアクティブ（ミント用）、3) ステーキングコントラクトを承認済み、4) 制限を超えていない。"
+          },
+          {
+            "q": "承認済みなのにステークできない？",
+            "a": "承認はコントラクトごと。STAKEタブに表示されているステーキングコントラクトアドレスを承認したか確認。"
+          },
+          {
+            "q": "NFT画像が読み込まれない？",
+            "a": "NFTはSVG — 一部のウォレット/マーケットプレイスはレンダリングに時間がかかる可能性。EtherscanのtokenURI()から直接確認可能。"
+          },
+          {
+            "q": "即座にアンステークできますか？",
+            "a": "はい、いつでも。ロック期間なし、手数料なし。STAKEタブへ移動、NFTを選択、UNSTAKEをクリック。"
+          }
+        ]
+      }
+    ]
+  },
+  "simulator": {
+    "generating": "NFTを生成中...",
+    "picked": "選択中",
+    "bgDark": "暗い",
+    "bgLight": "明るい",
+    "bgGrid": "グリッド",
+    "randomBtn": "ランダム DUNK POGE"
+  }
+}
